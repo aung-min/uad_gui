@@ -1,0 +1,16 @@
+{
+  "run_dir": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/cable_ae",
+  "category": "cable",
+  "device": "cuda",
+  "train_count": 190,
+  "val_count": 34,
+  "best_epoch": 30,
+  "best_val_loss": 0.03229680328684695,
+  "files": {
+    "model_best": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/cable_ae/checkpoints/model_best.pt",
+    "model_last": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/cable_ae/checkpoints/model_last.pt",
+    "training_history_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/cable_ae/training_history.csv",
+    "training_summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/cable_ae/training_summary.json",
+    "config_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/cable_ae/config.json"
+  }
+}

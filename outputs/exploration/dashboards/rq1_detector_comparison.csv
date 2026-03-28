@@ -1,0 +1,7 @@
+category,feature_img_auroc,ae_img_auroc,hybrid_img_auroc,best_detector
+bottle,1.0,0.689,0.783,Feature
+cable,0.988,0.576,0.342,Feature
+capsule,0.93,0.455,0.702,Feature
+metal_nut,1.0,0.392,0.453,Feature
+screw,0.889,0.353,0.55,Feature
+transistor,0.976,0.487,0.491,Feature

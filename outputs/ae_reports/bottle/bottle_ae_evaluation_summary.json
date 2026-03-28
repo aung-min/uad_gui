@@ -1,0 +1,124 @@
+{
+  "dataset_name": "mvtec_ad",
+  "detector_name": "autoencoder",
+  "category": "bottle",
+  "checkpoint_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/bottle_ae/checkpoints/model_best.pt",
+  "image_size": 256,
+  "total_test_samples": 83,
+  "normal_samples": 20,
+  "anomalous_samples": 63,
+  "image_level_metrics": {
+    "auroc": 0.6888888888888889,
+    "average_precision": 0.8903471721835365
+  },
+  "pixel_level_metrics": {
+    "auroc": 0.7674990085796173,
+    "average_precision": 0.16446418064361157
+  },
+  "top_10_highest_scores": [
+    {
+      "sample_index": 48,
+      "image_path": "data/mvtec_ad/bottle/test/contamination/006.png",
+      "defect_type": "contamination",
+      "label": 1,
+      "image_score": 0.026670468971133232,
+      "image_h": 900,
+      "image_w": 900,
+      "mask_positive_pixels": 123943
+    },
+    {
+      "sample_index": 54,
+      "image_path": "data/mvtec_ad/bottle/test/contamination/012.png",
+      "defect_type": "contamination",
+      "label": 1,
+      "image_score": 0.02438405342400074,
+      "image_h": 900,
+      "image_w": 900,
+      "mask_positive_pixels": 122608
+    },
+    {
+      "sample_index": 58,
+      "image_path": "data/mvtec_ad/bottle/test/contamination/016.png",
+      "defect_type": "contamination",
+      "label": 1,
+      "image_score": 0.023803751915693283,
+      "image_h": 900,
+      "image_w": 900,
+      "mask_positive_pixels": 122515
+    },
+    {
+      "sample_index": 47,
+      "image_path": "data/mvtec_ad/bottle/test/contamination/005.png",
+      "defect_type": "contamination",
+      "label": 1,
+      "image_score": 0.023456526920199394,
+      "image_h": 900,
+      "image_w": 900,
+      "mask_positive_pixels": 99554
+    },
+    {
+      "sample_index": 49,
+      "image_path": "data/mvtec_ad/bottle/test/contamination/007.png",
+      "defect_type": "contamination",
+      "label": 1,
+      "image_score": 0.023032020777463913,
+      "image_h": 900,
+      "image_w": 900,
+      "mask_positive_pixels": 45048
+    },
+    {
+      "sample_index": 62,
+      "image_path": "data/mvtec_ad/bottle/test/contamination/020.png",
+      "defect_type": "contamination",
+      "label": 1,
+      "image_score": 0.02182813175022602,
+      "image_h": 900,
+      "image_w": 900,
+      "mask_positive_pixels": 121385
+    },
+    {
+      "sample_index": 59,
+      "image_path": "data/mvtec_ad/bottle/test/contamination/017.png",
+      "defect_type": "contamination",
+      "label": 1,
+      "image_score": 0.021751578897237778,
+      "image_h": 900,
+      "image_w": 900,
+      "mask_positive_pixels": 67541
+    },
+    {
+      "sample_index": 38,
+      "image_path": "data/mvtec_ad/bottle/test/broken_small/018.png",
+      "defect_type": "broken_small",
+      "label": 1,
+      "image_score": 0.021559089422225952,
+      "image_h": 900,
+      "image_w": 900,
+      "mask_positive_pixels": 46314
+    },
+    {
+      "sample_index": 60,
+      "image_path": "data/mvtec_ad/bottle/test/contamination/018.png",
+      "defect_type": "contamination",
+      "label": 1,
+      "image_score": 0.021476641297340393,
+      "image_h": 900,
+      "image_w": 900,
+      "mask_positive_pixels": 4663
+    },
+    {
+      "sample_index": 37,
+      "image_path": "data/mvtec_ad/bottle/test/broken_small/017.png",
+      "defect_type": "broken_small",
+      "label": 1,
+      "image_score": 0.021473092958331108,
+      "image_h": 900,
+      "image_w": 900,
+      "mask_positive_pixels": 20384
+    }
+  ],
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_reports/bottle/bottle_ae_image_scores.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_reports/bottle/bottle_ae_evaluation_summary.json"
+  }
+}

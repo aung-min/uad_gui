@@ -1,0 +1,60 @@
+{
+  "dataset_name": "mvtec_ad",
+  "detector_name": "hybrid",
+  "category": "screw",
+  "total_test_samples": 160,
+  "normal_samples": 41,
+  "anomalous_samples": 119,
+  "score_stats": {
+    "normal_min": 0.7250956296920776,
+    "normal_max": 0.926261305809021,
+    "normal_mean": 0.8379106521606445,
+    "anomaly_min": 0.6911685466766357,
+    "anomaly_max": 0.9976729154586792,
+    "anomaly_mean": 0.8508078455924988
+  },
+  "percentile_thresholds": {
+    "normal_p90_0": 0.8928991556167603,
+    "normal_p95_0": 0.9202906489372253,
+    "normal_p97_5": 0.9222731590270996,
+    "normal_p99_0": 0.9246660470962524,
+    "normal_p99_5": 0.9254636764526367
+  },
+  "recommended_for_gui": {
+    "method": "normal_p99_0",
+    "threshold": 0.9246660470962524,
+    "reason": "normal-score percentile threshold using only normal test samples"
+  },
+  "best_f1_threshold": {
+    "threshold": 0.7250956296920776,
+    "accuracy": 0.7375,
+    "precision": 0.7421383647798742,
+    "recall": 0.9915966386554622,
+    "specificity": 0.0,
+    "f1": 0.8489208633093526,
+    "tp": 118,
+    "tn": 0,
+    "fp": 41,
+    "fn": 1,
+    "selection_method": "best_f1"
+  },
+  "best_youden_threshold": {
+    "threshold": 0.8934535980224609,
+    "accuracy": 0.4375,
+    "precision": 0.8918918918918919,
+    "recall": 0.2773109243697479,
+    "specificity": 0.9024390243902439,
+    "f1": 0.4230769230769231,
+    "tp": 33,
+    "tn": 37,
+    "fp": 4,
+    "fn": 86,
+    "selection_method": "best_youden_j",
+    "youden_j": 0.1797499487599918
+  },
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/screw/screw_hybrid_threshold_scores.csv",
+    "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/screw/screw_hybrid_threshold_candidates.csv",
+    "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/screw/screw_hybrid_thresholds.json"
+  }
+}

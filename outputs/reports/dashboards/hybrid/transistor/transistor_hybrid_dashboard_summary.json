@@ -1,0 +1,41 @@
+{
+  "detector": "hybrid",
+  "detector_display_name": "Hybrid",
+  "category": "transistor",
+  "threshold_source": "recommended:normal_p99_0",
+  "threshold": 0.9438443779945374,
+  "accuracy": 0.62,
+  "precision": 1.0,
+  "recall": 0.05,
+  "specificity": 1.0,
+  "f1": 0.09523809523809523,
+  "tp": 2,
+  "tn": 60,
+  "fp": 0,
+  "fn": 38,
+  "total_images": 100,
+  "normal_images": 60,
+  "anomalous_images": 40,
+  "source_files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/transistor/transistor_image_scores.csv",
+    "threshold_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/transistor/transistor_hybrid_thresholds.json"
+  },
+  "files": {
+    "dashboard_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/hybrid/transistor/transistor_hybrid_confusion_threshold_dashboard.png",
+    "threshold_sweep_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/hybrid/transistor/transistor_hybrid_threshold_sweep.csv",
+    "confusion_matrix_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/hybrid/transistor/transistor_hybrid_confusion_matrix.csv",
+    "selected_metrics_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/hybrid/transistor/transistor_hybrid_selected_metrics.csv",
+    "score_distribution_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/hybrid/transistor/transistor_hybrid_score_distribution.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/hybrid/transistor/transistor_hybrid_dashboard_summary.json"
+  },
+  "font_config": {
+    "title": 18,
+    "axis_label": 17,
+    "tick": 16,
+    "legend": 12,
+    "matrix_cell": 18,
+    "summary": 14,
+    "suptitle": 20,
+    "colorbar_tick": 12
+  }
+}

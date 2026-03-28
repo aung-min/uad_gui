@@ -1,0 +1,2 @@
+detector,category,threshold_source,threshold,accuracy,precision,recall,specificity,f1,tp,tn,fp,fn
+feature,bottle,recommended:normal_p99_0,0.5959405899047852,0.9879518072289156,0.984375,1.0,0.95,0.9921259842519685,63,19,1,0

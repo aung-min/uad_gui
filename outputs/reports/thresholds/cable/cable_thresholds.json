@@ -1,0 +1,56 @@
+{
+  "dataset_name": "mvtec_ad",
+  "category": "cable",
+  "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/cable_memory_bank.pt",
+  "image_size": 256,
+  "total_test_samples": 150,
+  "normal_samples": 58,
+  "anomalous_samples": 92,
+  "score_stats": {
+    "normal_min": 0.6514254808425903,
+    "normal_max": 0.8015605807304382,
+    "normal_mean": 0.7227818965911865,
+    "anomaly_min": 0.7464869618415833,
+    "anomaly_max": 1.0261050462722778,
+    "anomaly_mean": 0.8727438449859619
+  },
+  "percentile_thresholds": {
+    "normal_p90_0": 0.7584569454193115,
+    "normal_p95_0": 0.7692056894302368,
+    "normal_p97_5": 0.7776674032211304,
+    "normal_p99_0": 0.7883915305137634,
+    "normal_p99_5": 0.7949760556221008
+  },
+  "recommended_for_gui": {
+    "method": "normal_p99_0",
+    "threshold": 0.7883915305137634,
+    "reason": "normal-score percentile threshold using only normal test samples"
+  },
+  "best_f1_threshold": {
+    "threshold": 0.7588914036750793,
+    "accuracy": 0.94,
+    "precision": 0.946236559139785,
+    "recall": 0.9565217391304348,
+    "specificity": 0.9137931034482759,
+    "f1": 0.9513513513513514,
+    "tp": 88,
+    "tn": 53,
+    "fp": 5,
+    "fn": 4,
+    "selection_method": "best_f1"
+  },
+  "best_youden_threshold": {
+    "threshold": 0.7598668336868286,
+    "accuracy": 0.9466666666666667,
+    "precision": 0.9565217391304348,
+    "recall": 0.9565217391304348,
+    "specificity": 0.9310344827586207,
+    "f1": 0.9565217391304348,
+    "tp": 88,
+    "tn": 54,
+    "fp": 4,
+    "fn": 4,
+    "selection_method": "best_youden_j",
+    "youden_j": 0.8875562218890555
+  }
+}

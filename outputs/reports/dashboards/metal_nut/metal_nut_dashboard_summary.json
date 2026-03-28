@@ -1,0 +1,25 @@
+{
+  "category": "metal_nut",
+  "threshold_source": "recommended:normal_p99_0",
+  "threshold": 0.7409592866897583,
+  "accuracy": 0.991304347826087,
+  "precision": 0.9893617021276596,
+  "recall": 1.0,
+  "specificity": 0.9545454545454546,
+  "f1": 0.9946524064171123,
+  "tp": 93,
+  "tn": 21,
+  "fp": 1,
+  "fn": 0,
+  "total_images": 115,
+  "normal_images": 22,
+  "anomalous_images": 93,
+  "files": {
+    "dashboard_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/metal_nut/metal_nut_confusion_threshold_dashboard.png",
+    "threshold_sweep_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/metal_nut/metal_nut_threshold_sweep.csv",
+    "confusion_matrix_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/metal_nut/metal_nut_confusion_matrix.csv",
+    "selected_metrics_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/metal_nut/metal_nut_selected_metrics.csv",
+    "score_distribution_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/metal_nut/metal_nut_score_distribution.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/metal_nut/metal_nut_dashboard_summary.json"
+  }
+}

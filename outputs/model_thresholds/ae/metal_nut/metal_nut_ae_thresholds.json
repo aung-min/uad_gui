@@ -1,0 +1,60 @@
+{
+  "dataset_name": "mvtec_ad",
+  "detector_name": "ae",
+  "category": "metal_nut",
+  "total_test_samples": 115,
+  "normal_samples": 22,
+  "anomalous_samples": 93,
+  "score_stats": {
+    "normal_min": 0.017792075872421265,
+    "normal_max": 0.024954412132501602,
+    "normal_mean": 0.0210835263133049,
+    "anomaly_min": 0.01799030229449272,
+    "anomaly_max": 0.02401755563914776,
+    "anomaly_mean": 0.020319854840636253
+  },
+  "percentile_thresholds": {
+    "normal_p90_0": 0.023459939286112785,
+    "normal_p95_0": 0.023806365206837654,
+    "normal_p97_5": 0.02435927651822567,
+    "normal_p99_0": 0.02471635863184929,
+    "normal_p99_5": 0.024835385382175446
+  },
+  "recommended_for_gui": {
+    "method": "normal_p99_0",
+    "threshold": 0.02471635863184929,
+    "reason": "normal-score percentile threshold using only normal test samples"
+  },
+  "best_f1_threshold": {
+    "threshold": 0.017792075872421265,
+    "accuracy": 0.808695652173913,
+    "precision": 0.808695652173913,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "f1": 0.8942307692307693,
+    "tp": 93,
+    "tn": 0,
+    "fp": 22,
+    "fn": 0,
+    "selection_method": "best_f1"
+  },
+  "best_youden_threshold": {
+    "threshold": 0.01868458464741707,
+    "accuracy": 0.8,
+    "precision": 0.8301886792452831,
+    "recall": 0.946236559139785,
+    "specificity": 0.18181818181818182,
+    "f1": 0.8844221105527639,
+    "tp": 88,
+    "tn": 4,
+    "fp": 18,
+    "fn": 5,
+    "selection_method": "best_youden_j",
+    "youden_j": 0.12805474095796676
+  },
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/metal_nut/metal_nut_ae_threshold_scores.csv",
+    "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/metal_nut/metal_nut_ae_threshold_candidates.csv",
+    "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/metal_nut/metal_nut_ae_thresholds.json"
+  }
+}

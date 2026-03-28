@@ -1,0 +1,2 @@
+category,threshold_source,threshold,accuracy,precision,recall,specificity,f1,tp,tn,fp,fn
+capsule,recommended:normal_p99_0,0.6347275972366333,0.6893939393939394,0.9857142857142858,0.6330275229357798,0.9565217391304348,0.770949720670391,69,22,1,40

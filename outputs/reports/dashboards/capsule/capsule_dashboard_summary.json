@@ -1,0 +1,25 @@
+{
+  "category": "capsule",
+  "threshold_source": "recommended:normal_p99_0",
+  "threshold": 0.6347275972366333,
+  "accuracy": 0.6893939393939394,
+  "precision": 0.9857142857142858,
+  "recall": 0.6330275229357798,
+  "specificity": 0.9565217391304348,
+  "f1": 0.770949720670391,
+  "tp": 69,
+  "tn": 22,
+  "fp": 1,
+  "fn": 40,
+  "total_images": 132,
+  "normal_images": 23,
+  "anomalous_images": 109,
+  "files": {
+    "dashboard_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/capsule/capsule_confusion_threshold_dashboard.png",
+    "threshold_sweep_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/capsule/capsule_threshold_sweep.csv",
+    "confusion_matrix_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/capsule/capsule_confusion_matrix.csv",
+    "selected_metrics_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/capsule/capsule_selected_metrics.csv",
+    "score_distribution_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/capsule/capsule_score_distribution.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/capsule/capsule_dashboard_summary.json"
+  }
+}

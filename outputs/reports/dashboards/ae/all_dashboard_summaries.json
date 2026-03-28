@@ -1,0 +1,248 @@
+[
+  {
+    "detector": "ae",
+    "detector_display_name": "Autoencoder",
+    "category": "bottle",
+    "threshold_source": "recommended:normal_p99_0",
+    "threshold": 0.01944524608552456,
+    "accuracy": 0.7590361445783133,
+    "precision": 0.7590361445783133,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "f1": 0.863013698630137,
+    "tp": 63,
+    "tn": 0,
+    "fp": 20,
+    "fn": 0,
+    "total_images": 83,
+    "normal_images": 20,
+    "anomalous_images": 63,
+    "source_files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/bottle/bottle_image_scores.csv",
+      "threshold_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/bottle/bottle_ae_thresholds.json"
+    },
+    "files": {
+      "dashboard_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/bottle/bottle_ae_confusion_threshold_dashboard.png",
+      "threshold_sweep_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/bottle/bottle_ae_threshold_sweep.csv",
+      "confusion_matrix_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/bottle/bottle_ae_confusion_matrix.csv",
+      "selected_metrics_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/bottle/bottle_ae_selected_metrics.csv",
+      "score_distribution_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/bottle/bottle_ae_score_distribution.csv",
+      "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/bottle/bottle_ae_dashboard_summary.json"
+    },
+    "font_config": {
+      "title": 20,
+      "axis_label": 18,
+      "tick": 12,
+      "legend": 11,
+      "matrix_cell": 14,
+      "summary": 14,
+      "suptitle": 24,
+      "colorbar_tick": 11
+    }
+  },
+  {
+    "detector": "ae",
+    "detector_display_name": "Autoencoder",
+    "category": "transistor",
+    "threshold_source": "recommended:normal_p99_0",
+    "threshold": 0.020117664709687233,
+    "accuracy": 0.4,
+    "precision": 0.4,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "f1": 0.5714285714285714,
+    "tp": 40,
+    "tn": 0,
+    "fp": 60,
+    "fn": 0,
+    "total_images": 100,
+    "normal_images": 60,
+    "anomalous_images": 40,
+    "source_files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/transistor/transistor_image_scores.csv",
+      "threshold_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/transistor/transistor_ae_thresholds.json"
+    },
+    "files": {
+      "dashboard_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/transistor/transistor_ae_confusion_threshold_dashboard.png",
+      "threshold_sweep_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/transistor/transistor_ae_threshold_sweep.csv",
+      "confusion_matrix_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/transistor/transistor_ae_confusion_matrix.csv",
+      "selected_metrics_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/transistor/transistor_ae_selected_metrics.csv",
+      "score_distribution_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/transistor/transistor_ae_score_distribution.csv",
+      "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/transistor/transistor_ae_dashboard_summary.json"
+    },
+    "font_config": {
+      "title": 20,
+      "axis_label": 18,
+      "tick": 12,
+      "legend": 11,
+      "matrix_cell": 14,
+      "summary": 14,
+      "suptitle": 24,
+      "colorbar_tick": 11
+    }
+  },
+  {
+    "detector": "ae",
+    "detector_display_name": "Autoencoder",
+    "category": "cable",
+    "threshold_source": "recommended:normal_p99_0",
+    "threshold": 0.03504176810383797,
+    "accuracy": 0.6133333333333333,
+    "precision": 0.6133333333333333,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "f1": 0.7603305785123967,
+    "tp": 92,
+    "tn": 0,
+    "fp": 58,
+    "fn": 0,
+    "total_images": 150,
+    "normal_images": 58,
+    "anomalous_images": 92,
+    "source_files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/cable/cable_image_scores.csv",
+      "threshold_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/cable/cable_ae_thresholds.json"
+    },
+    "files": {
+      "dashboard_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/cable/cable_ae_confusion_threshold_dashboard.png",
+      "threshold_sweep_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/cable/cable_ae_threshold_sweep.csv",
+      "confusion_matrix_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/cable/cable_ae_confusion_matrix.csv",
+      "selected_metrics_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/cable/cable_ae_selected_metrics.csv",
+      "score_distribution_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/cable/cable_ae_score_distribution.csv",
+      "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/cable/cable_ae_dashboard_summary.json"
+    },
+    "font_config": {
+      "title": 20,
+      "axis_label": 18,
+      "tick": 12,
+      "legend": 11,
+      "matrix_cell": 14,
+      "summary": 14,
+      "suptitle": 24,
+      "colorbar_tick": 11
+    }
+  },
+  {
+    "detector": "ae",
+    "detector_display_name": "Autoencoder",
+    "category": "capsule",
+    "threshold_source": "recommended:normal_p99_0",
+    "threshold": 0.018068909645080566,
+    "accuracy": 0.8257575757575758,
+    "precision": 0.8257575757575758,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "f1": 0.9045643153526971,
+    "tp": 109,
+    "tn": 0,
+    "fp": 23,
+    "fn": 0,
+    "total_images": 132,
+    "normal_images": 23,
+    "anomalous_images": 109,
+    "source_files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/capsule/capsule_image_scores.csv",
+      "threshold_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/capsule/capsule_ae_thresholds.json"
+    },
+    "files": {
+      "dashboard_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/capsule/capsule_ae_confusion_threshold_dashboard.png",
+      "threshold_sweep_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/capsule/capsule_ae_threshold_sweep.csv",
+      "confusion_matrix_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/capsule/capsule_ae_confusion_matrix.csv",
+      "selected_metrics_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/capsule/capsule_ae_selected_metrics.csv",
+      "score_distribution_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/capsule/capsule_ae_score_distribution.csv",
+      "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/capsule/capsule_ae_dashboard_summary.json"
+    },
+    "font_config": {
+      "title": 20,
+      "axis_label": 18,
+      "tick": 12,
+      "legend": 11,
+      "matrix_cell": 14,
+      "summary": 14,
+      "suptitle": 24,
+      "colorbar_tick": 11
+    }
+  },
+  {
+    "detector": "ae",
+    "detector_display_name": "Autoencoder",
+    "category": "screw",
+    "threshold_source": "recommended:normal_p99_0",
+    "threshold": 0.013753675855696201,
+    "accuracy": 0.74375,
+    "precision": 0.74375,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "f1": 0.8530465949820788,
+    "tp": 119,
+    "tn": 0,
+    "fp": 41,
+    "fn": 0,
+    "total_images": 160,
+    "normal_images": 41,
+    "anomalous_images": 119,
+    "source_files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/screw/screw_image_scores.csv",
+      "threshold_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/screw/screw_ae_thresholds.json"
+    },
+    "files": {
+      "dashboard_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/screw/screw_ae_confusion_threshold_dashboard.png",
+      "threshold_sweep_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/screw/screw_ae_threshold_sweep.csv",
+      "confusion_matrix_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/screw/screw_ae_confusion_matrix.csv",
+      "selected_metrics_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/screw/screw_ae_selected_metrics.csv",
+      "score_distribution_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/screw/screw_ae_score_distribution.csv",
+      "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/screw/screw_ae_dashboard_summary.json"
+    },
+    "font_config": {
+      "title": 20,
+      "axis_label": 18,
+      "tick": 12,
+      "legend": 11,
+      "matrix_cell": 14,
+      "summary": 14,
+      "suptitle": 24,
+      "colorbar_tick": 11
+    }
+  },
+  {
+    "detector": "ae",
+    "detector_display_name": "Autoencoder",
+    "category": "metal_nut",
+    "threshold_source": "recommended:normal_p99_0",
+    "threshold": 0.02471635863184929,
+    "accuracy": 0.808695652173913,
+    "precision": 0.808695652173913,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "f1": 0.8942307692307693,
+    "tp": 93,
+    "tn": 0,
+    "fp": 22,
+    "fn": 0,
+    "total_images": 115,
+    "normal_images": 22,
+    "anomalous_images": 93,
+    "source_files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/metal_nut/metal_nut_image_scores.csv",
+      "threshold_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/metal_nut/metal_nut_ae_thresholds.json"
+    },
+    "files": {
+      "dashboard_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/metal_nut/metal_nut_ae_confusion_threshold_dashboard.png",
+      "threshold_sweep_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/metal_nut/metal_nut_ae_threshold_sweep.csv",
+      "confusion_matrix_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/metal_nut/metal_nut_ae_confusion_matrix.csv",
+      "selected_metrics_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/metal_nut/metal_nut_ae_selected_metrics.csv",
+      "score_distribution_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/metal_nut/metal_nut_ae_score_distribution.csv",
+      "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/metal_nut/metal_nut_ae_dashboard_summary.json"
+    },
+    "font_config": {
+      "title": 20,
+      "axis_label": 18,
+      "tick": 12,
+      "legend": 11,
+      "matrix_cell": 14,
+      "summary": 14,
+      "suptitle": 24,
+      "colorbar_tick": 11
+    }
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "dataset_name": "mvtec_ad",
+  "detector_name": "hybrid",
+  "category": "capsule",
+  "total_test_samples": 132,
+  "normal_samples": 23,
+  "anomalous_samples": 109,
+  "score_stats": {
+    "normal_min": 0.5418180227279663,
+    "normal_max": 0.9447144865989685,
+    "normal_mean": 0.7279618382453918,
+    "anomaly_min": 0.5759828090667725,
+    "anomaly_max": 0.9931880235671997,
+    "anomaly_mean": 0.8144165277481079
+  },
+  "percentile_thresholds": {
+    "normal_p90_0": 0.8360792398452759,
+    "normal_p95_0": 0.845325231552124,
+    "normal_p97_5": 0.8905454874038696,
+    "normal_p99_0": 0.9230469465255737,
+    "normal_p99_5": 0.933880627155304
+  },
+  "recommended_for_gui": {
+    "method": "normal_p99_0",
+    "threshold": 0.9230469465255737,
+    "reason": "normal-score percentile threshold using only normal test samples"
+  },
+  "best_f1_threshold": {
+    "threshold": 0.575722336769104,
+    "accuracy": 0.8409090909090909,
+    "precision": 0.8384615384615385,
+    "recall": 1.0,
+    "specificity": 0.08695652173913043,
+    "f1": 0.9121338912133891,
+    "tp": 109,
+    "tn": 2,
+    "fp": 21,
+    "fn": 0,
+    "selection_method": "best_f1"
+  },
+  "best_youden_threshold": {
+    "threshold": 0.8472540378570557,
+    "accuracy": 0.4621212121212121,
+    "precision": 0.975,
+    "recall": 0.3577981651376147,
+    "specificity": 0.9565217391304348,
+    "f1": 0.5234899328859061,
+    "tp": 39,
+    "tn": 22,
+    "fp": 1,
+    "fn": 70,
+    "selection_method": "best_youden_j",
+    "youden_j": 0.31431990426804945
+  },
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/capsule/capsule_hybrid_threshold_scores.csv",
+    "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/capsule/capsule_hybrid_threshold_candidates.csv",
+    "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/capsule/capsule_hybrid_thresholds.json"
+  }
+}

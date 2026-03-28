@@ -1,0 +1,60 @@
+{
+  "dataset_name": "mvtec_ad",
+  "detector_name": "ae",
+  "category": "screw",
+  "total_test_samples": 160,
+  "normal_samples": 41,
+  "anomalous_samples": 119,
+  "score_stats": {
+    "normal_min": 0.011262184008955956,
+    "normal_max": 0.013761880807578564,
+    "normal_mean": 0.012693312019109726,
+    "anomaly_min": 0.011033248156309128,
+    "anomaly_max": 0.014372577890753746,
+    "anomaly_mean": 0.012395497411489487
+  },
+  "percentile_thresholds": {
+    "normal_p90_0": 0.013432350941002369,
+    "normal_p95_0": 0.013603368774056435,
+    "normal_p97_5": 0.013741368427872658,
+    "normal_p99_0": 0.013753675855696201,
+    "normal_p99_5": 0.013757778331637383
+  },
+  "recommended_for_gui": {
+    "method": "normal_p99_0",
+    "threshold": 0.013753675855696201,
+    "reason": "normal-score percentile threshold using only normal test samples"
+  },
+  "best_f1_threshold": {
+    "threshold": 0.011033248156309128,
+    "accuracy": 0.74375,
+    "precision": 0.74375,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "f1": 0.8530465949820789,
+    "tp": 119,
+    "tn": 0,
+    "fp": 41,
+    "fn": 0,
+    "selection_method": "best_f1"
+  },
+  "best_youden_threshold": {
+    "threshold": 0.013915250077843666,
+    "accuracy": 0.275,
+    "precision": 1.0,
+    "recall": 0.025210084033613446,
+    "specificity": 1.0,
+    "f1": 0.049180327868852465,
+    "tp": 3,
+    "tn": 41,
+    "fp": 0,
+    "fn": 116,
+    "selection_method": "best_youden_j",
+    "youden_j": 0.025210084033613446
+  },
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/screw/screw_ae_threshold_scores.csv",
+    "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/screw/screw_ae_threshold_candidates.csv",
+    "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/screw/screw_ae_thresholds.json"
+  }
+}

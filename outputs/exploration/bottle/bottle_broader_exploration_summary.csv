@@ -1,0 +1,2 @@
+category,feature_image_auroc,feature_pixel_auroc,feature_threshold,ae_image_auroc,ae_pixel_auroc,ae_threshold,hybrid_image_auroc,hybrid_pixel_auroc,hybrid_threshold,best_image_detector,best_image_auroc,best_pixel_detector,best_pixel_auroc
+bottle,1.0,0.982672479331444,0.5959405899047852,0.6888888888888889,0.7674990085796173,0.01944524608552456,0.7825396825396825,0.9713400002746823,0.9462053775787354,feature,1.0,feature,0.982672479331444

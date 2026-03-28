@@ -1,0 +1,41 @@
+{
+  "detector": "hybrid",
+  "detector_display_name": "Hybrid",
+  "category": "bottle",
+  "threshold_source": "recommended:normal_p99_0",
+  "threshold": 0.9462053775787354,
+  "accuracy": 0.5060240963855421,
+  "precision": 1.0,
+  "recall": 0.3492063492063492,
+  "specificity": 1.0,
+  "f1": 0.5176470588235295,
+  "tp": 22,
+  "tn": 20,
+  "fp": 0,
+  "fn": 41,
+  "total_images": 83,
+  "normal_images": 20,
+  "anomalous_images": 63,
+  "source_files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/bottle/bottle_image_scores.csv",
+    "threshold_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/bottle/bottle_hybrid_thresholds.json"
+  },
+  "files": {
+    "dashboard_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/hybrid/bottle/bottle_hybrid_confusion_threshold_dashboard.png",
+    "threshold_sweep_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/hybrid/bottle/bottle_hybrid_threshold_sweep.csv",
+    "confusion_matrix_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/hybrid/bottle/bottle_hybrid_confusion_matrix.csv",
+    "selected_metrics_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/hybrid/bottle/bottle_hybrid_selected_metrics.csv",
+    "score_distribution_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/hybrid/bottle/bottle_hybrid_score_distribution.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/hybrid/bottle/bottle_hybrid_dashboard_summary.json"
+  },
+  "font_config": {
+    "title": 18,
+    "axis_label": 17,
+    "tick": 16,
+    "legend": 12,
+    "matrix_cell": 18,
+    "summary": 14,
+    "suptitle": 20,
+    "colorbar_tick": 12
+  }
+}

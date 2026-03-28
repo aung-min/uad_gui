@@ -1,0 +1,2 @@
+category,threshold_source,threshold,accuracy,precision,recall,specificity,f1,tp,tn,fp,fn
+transistor,recommended:normal_p99_0,0.7950738668441772,0.88,0.9666666666666667,0.725,0.9833333333333333,0.8285714285714286,29,59,1,11

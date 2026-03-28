@@ -1,0 +1,143 @@
+{
+  "dataset_name": "mvtec_ad",
+  "category": "transistor",
+  "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/transistor_memory_bank.pt",
+  "image_size": 256,
+  "total_test_samples": 100,
+  "normal_samples": 60,
+  "anomalous_samples": 40,
+  "image_level_metrics": {
+    "auroc": 0.9762500000000001,
+    "average_precision": 0.9697694708590278
+  },
+  "pixel_level_metrics": {
+    "auroc": 0.8551585386992052,
+    "average_precision": 0.49099491555727165
+  },
+  "top_10_highest_scores": [
+    {
+      "sample_index": 97,
+      "image_path": "data/mvtec_ad/transistor/test/misplaced/007.png",
+      "defect_type": "misplaced",
+      "label": 1,
+      "image_score": 0.9866515398025513,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 512572
+    },
+    {
+      "sample_index": 98,
+      "image_path": "data/mvtec_ad/transistor/test/misplaced/008.png",
+      "defect_type": "misplaced",
+      "label": 1,
+      "image_score": 0.9609450101852417,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 517163
+    },
+    {
+      "sample_index": 95,
+      "image_path": "data/mvtec_ad/transistor/test/misplaced/005.png",
+      "defect_type": "misplaced",
+      "label": 1,
+      "image_score": 0.9071865677833557,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 450193
+    },
+    {
+      "sample_index": 29,
+      "image_path": "data/mvtec_ad/transistor/test/damaged_case/009.png",
+      "defect_type": "damaged_case",
+      "label": 1,
+      "image_score": 0.9067690372467041,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 53178
+    },
+    {
+      "sample_index": 21,
+      "image_path": "data/mvtec_ad/transistor/test/damaged_case/001.png",
+      "defect_type": "damaged_case",
+      "label": 1,
+      "image_score": 0.9013935923576355,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 56114
+    },
+    {
+      "sample_index": 28,
+      "image_path": "data/mvtec_ad/transistor/test/damaged_case/008.png",
+      "defect_type": "damaged_case",
+      "label": 1,
+      "image_score": 0.895433247089386,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 52956
+    },
+    {
+      "sample_index": 91,
+      "image_path": "data/mvtec_ad/transistor/test/misplaced/001.png",
+      "defect_type": "misplaced",
+      "label": 1,
+      "image_score": 0.894969642162323,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 428411
+    },
+    {
+      "sample_index": 25,
+      "image_path": "data/mvtec_ad/transistor/test/damaged_case/005.png",
+      "defect_type": "damaged_case",
+      "label": 1,
+      "image_score": 0.8791729211807251,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 36644
+    },
+    {
+      "sample_index": 20,
+      "image_path": "data/mvtec_ad/transistor/test/damaged_case/000.png",
+      "defect_type": "damaged_case",
+      "label": 1,
+      "image_score": 0.8769747614860535,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 15585
+    },
+    {
+      "sample_index": 94,
+      "image_path": "data/mvtec_ad/transistor/test/misplaced/004.png",
+      "defect_type": "misplaced",
+      "label": 1,
+      "image_score": 0.8743893504142761,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 423908
+    }
+  ],
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/transistor/transistor_image_scores.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/transistor/transistor_evaluation_summary.json"
+  }
+}

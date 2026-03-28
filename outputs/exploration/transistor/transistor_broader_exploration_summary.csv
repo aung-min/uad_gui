@@ -1,0 +1,2 @@
+category,feature_image_auroc,feature_pixel_auroc,feature_threshold,ae_image_auroc,ae_pixel_auroc,ae_threshold,hybrid_image_auroc,hybrid_pixel_auroc,hybrid_threshold,best_image_detector,best_image_auroc,best_pixel_detector,best_pixel_auroc
+transistor,0.9762500000000001,0.8551585386992052,0.7950738668441772,0.48666666666666664,0.6060814570110524,0.020117664709687233,0.49125,0.7725647992101397,0.9438443779945374,feature,0.9762500000000001,feature,0.8551585386992052

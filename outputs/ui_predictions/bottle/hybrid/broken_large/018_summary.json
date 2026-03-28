@@ -1,0 +1,22 @@
+{
+  "image_path": "/home/wsl-admin/industrial_anomaly_detection_gui/data/mvtec_ad/bottle/test/broken_large/018.png",
+  "category": "bottle",
+  "image_score": 0.9120999574661255,
+  "feature_score": 0.9912741780281067,
+  "ae_score": 0.019421948119997978,
+  "image_size_hw": [
+    900,
+    900
+  ],
+  "fusion_weight_feature": 0.5,
+  "fusion_weight_ae": 0.5,
+  "exports": {
+    "hybrid_anomaly_map_npy": "/home/wsl-admin/industrial_anomaly_detection_gui/outputs/ui_predictions/bottle/hybrid/broken_large/018_hybrid_anomaly_map.npy",
+    "hybrid_anomaly_map_png": "/home/wsl-admin/industrial_anomaly_detection_gui/outputs/ui_predictions/bottle/hybrid/broken_large/018_hybrid_anomaly_map.png",
+    "feature_anomaly_map_npy": "/home/wsl-admin/industrial_anomaly_detection_gui/outputs/ui_predictions/bottle/hybrid/broken_large/018_feature_anomaly_map.npy",
+    "feature_anomaly_map_png": "/home/wsl-admin/industrial_anomaly_detection_gui/outputs/ui_predictions/bottle/hybrid/broken_large/018_feature_anomaly_map.png",
+    "ae_anomaly_map_npy": "/home/wsl-admin/industrial_anomaly_detection_gui/outputs/ui_predictions/bottle/hybrid/broken_large/018_ae_anomaly_map.npy",
+    "ae_anomaly_map_png": "/home/wsl-admin/industrial_anomaly_detection_gui/outputs/ui_predictions/bottle/hybrid/broken_large/018_ae_anomaly_map.png",
+    "hybrid_overlay_png": "/home/wsl-admin/industrial_anomaly_detection_gui/outputs/ui_predictions/bottle/hybrid/broken_large/018_hybrid_overlay.png"
+  }
+}

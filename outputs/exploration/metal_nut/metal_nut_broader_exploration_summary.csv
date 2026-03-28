@@ -1,0 +1,2 @@
+category,feature_image_auroc,feature_pixel_auroc,feature_threshold,ae_image_auroc,ae_pixel_auroc,ae_threshold,hybrid_image_auroc,hybrid_pixel_auroc,hybrid_threshold,best_image_detector,best_image_auroc,best_pixel_detector,best_pixel_auroc
+metal_nut,1.0,0.9474189144995767,0.7409592866897583,0.39198435972629525,0.7853650790342986,0.02471635863184929,0.45259042033235586,0.9175857856864176,0.9413636922836304,feature,1.0,feature,0.9474189144995767

@@ -1,0 +1,60 @@
+{
+  "dataset_name": "mvtec_ad",
+  "detector_name": "hybrid",
+  "category": "metal_nut",
+  "total_test_samples": 115,
+  "normal_samples": 22,
+  "anomalous_samples": 93,
+  "score_stats": {
+    "normal_min": 0.7604670524597168,
+    "normal_max": 0.945157527923584,
+    "normal_mean": 0.8497219681739807,
+    "anomaly_min": 0.6816884279251099,
+    "anomaly_max": 0.9831131100654602,
+    "anomaly_mean": 0.8387971520423889
+  },
+  "percentile_thresholds": {
+    "normal_p90_0": 0.9032008647918701,
+    "normal_p95_0": 0.925922691822052,
+    "normal_p97_5": 0.9356728792190552,
+    "normal_p99_0": 0.9413636922836304,
+    "normal_p99_5": 0.9432606101036072
+  },
+  "recommended_for_gui": {
+    "method": "normal_p99_0",
+    "threshold": 0.9413636922836304,
+    "reason": "normal-score percentile threshold using only normal test samples"
+  },
+  "best_f1_threshold": {
+    "threshold": 0.6816884279251099,
+    "accuracy": 0.808695652173913,
+    "precision": 0.808695652173913,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "f1": 0.8942307692307693,
+    "tp": 93,
+    "tn": 0,
+    "fp": 22,
+    "fn": 0,
+    "selection_method": "best_f1"
+  },
+  "best_youden_threshold": {
+    "threshold": 0.9294077157974243,
+    "accuracy": 0.3739130434782609,
+    "precision": 0.9565217391304348,
+    "recall": 0.23655913978494625,
+    "specificity": 0.9545454545454546,
+    "f1": 0.37931034482758624,
+    "tp": 22,
+    "tn": 21,
+    "fp": 1,
+    "fn": 71,
+    "selection_method": "best_youden_j",
+    "youden_j": 0.19110459433040078
+  },
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/metal_nut/metal_nut_hybrid_threshold_scores.csv",
+    "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/metal_nut/metal_nut_hybrid_threshold_candidates.csv",
+    "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/metal_nut/metal_nut_hybrid_thresholds.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "run_dir": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/screw_ae",
+  "category": "screw",
+  "device": "cuda",
+  "train_count": 272,
+  "val_count": 48,
+  "best_epoch": 23,
+  "best_val_loss": 0.012407658932109674,
+  "files": {
+    "model_best": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/screw_ae/checkpoints/model_best.pt",
+    "model_last": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/screw_ae/checkpoints/model_last.pt",
+    "training_history_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/screw_ae/training_history.csv",
+    "training_summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/screw_ae/training_summary.json",
+    "config_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/screw_ae/config.json"
+  }
+}

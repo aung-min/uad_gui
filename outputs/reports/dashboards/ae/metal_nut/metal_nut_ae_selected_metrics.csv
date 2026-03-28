@@ -1,0 +1,2 @@
+detector,category,threshold_source,threshold,accuracy,precision,recall,specificity,f1,tp,tn,fp,fn
+ae,metal_nut,recommended:normal_p99_0,0.02471635863184929,0.808695652173913,0.808695652173913,1.0,0.0,0.8942307692307693,93,0,22,0

@@ -1,0 +1,12 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python temporary/runtime files
+__pycache__/
+*.py[cod]
+*.class
+*.log
+
+# Dataset
+data/mvtec_ad/

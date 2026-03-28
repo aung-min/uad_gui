@@ -1,0 +1,143 @@
+{
+  "dataset_name": "mvtec_ad",
+  "category": "screw",
+  "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/screw_memory_bank.pt",
+  "image_size": 256,
+  "total_test_samples": 160,
+  "normal_samples": 41,
+  "anomalous_samples": 119,
+  "image_level_metrics": {
+    "auroc": 0.8891166222586595,
+    "average_precision": 0.952543890747877
+  },
+  "pixel_level_metrics": {
+    "auroc": 0.9754001078533575,
+    "average_precision": 0.24314843177070042
+  },
+  "top_10_highest_scores": [
+    {
+      "sample_index": 98,
+      "image_path": "data/mvtec_ad/screw/test/scratch_neck/009.png",
+      "defect_type": "scratch_neck",
+      "label": 1,
+      "image_score": 0.8661813735961914,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 2582
+    },
+    {
+      "sample_index": 92,
+      "image_path": "data/mvtec_ad/screw/test/scratch_neck/003.png",
+      "defect_type": "scratch_neck",
+      "label": 1,
+      "image_score": 0.8586584329605103,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 2614
+    },
+    {
+      "sample_index": 97,
+      "image_path": "data/mvtec_ad/screw/test/scratch_neck/008.png",
+      "defect_type": "scratch_neck",
+      "label": 1,
+      "image_score": 0.8516073822975159,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 4567
+    },
+    {
+      "sample_index": 105,
+      "image_path": "data/mvtec_ad/screw/test/scratch_neck/016.png",
+      "defect_type": "scratch_neck",
+      "label": 1,
+      "image_score": 0.8138536214828491,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 3955
+    },
+    {
+      "sample_index": 96,
+      "image_path": "data/mvtec_ad/screw/test/scratch_neck/007.png",
+      "defect_type": "scratch_neck",
+      "label": 1,
+      "image_score": 0.8035064935684204,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 3062
+    },
+    {
+      "sample_index": 95,
+      "image_path": "data/mvtec_ad/screw/test/scratch_neck/006.png",
+      "defect_type": "scratch_neck",
+      "label": 1,
+      "image_score": 0.8029420971870422,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 4725
+    },
+    {
+      "sample_index": 108,
+      "image_path": "data/mvtec_ad/screw/test/scratch_neck/019.png",
+      "defect_type": "scratch_neck",
+      "label": 1,
+      "image_score": 0.8003130555152893,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 4108
+    },
+    {
+      "sample_index": 102,
+      "image_path": "data/mvtec_ad/screw/test/scratch_neck/013.png",
+      "defect_type": "scratch_neck",
+      "label": 1,
+      "image_score": 0.7961949706077576,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 3198
+    },
+    {
+      "sample_index": 113,
+      "image_path": "data/mvtec_ad/screw/test/scratch_neck/024.png",
+      "defect_type": "scratch_neck",
+      "label": 1,
+      "image_score": 0.7915514707565308,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 3240
+    },
+    {
+      "sample_index": 107,
+      "image_path": "data/mvtec_ad/screw/test/scratch_neck/018.png",
+      "defect_type": "scratch_neck",
+      "label": 1,
+      "image_score": 0.7880671620368958,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 3269
+    }
+  ],
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/screw/screw_image_scores.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/screw/screw_evaluation_summary.json"
+  }
+}

@@ -1,0 +1,2 @@
+detector,category,threshold_source,threshold,accuracy,precision,recall,specificity,f1,tp,tn,fp,fn
+hybrid,capsule,recommended:normal_p99_0,0.9230469465255737,0.20454545454545456,1.0,0.03669724770642202,1.0,0.07079646017699115,4,23,0,105

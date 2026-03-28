@@ -1,0 +1,17 @@
+{
+  "ae": {
+    "summary_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/combined_exports/ae_thresholds_all_category_summary.csv",
+    "scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/combined_exports/ae_threshold_scores_all_category.csv",
+    "candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/combined_exports/ae_threshold_candidates_all_category.csv"
+  },
+  "feature": {
+    "summary_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/combined_exports/feature_thresholds_all_category_summary.csv",
+    "scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/combined_exports/feature_threshold_scores_all_category.csv",
+    "candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/combined_exports/feature_threshold_candidates_all_category.csv"
+  },
+  "hybrid": {
+    "summary_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/combined_exports/hybrid_thresholds_all_category_summary.csv",
+    "scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/combined_exports/hybrid_threshold_scores_all_category.csv",
+    "candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/combined_exports/hybrid_threshold_candidates_all_category.csv"
+  }
+}

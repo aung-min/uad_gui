@@ -1,0 +1,1004 @@
+[
+  {
+    "category": "bottle",
+    "build_result": {
+      "category": "bottle",
+      "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/bottle_memory_bank.pt",
+      "build_summary": {
+        "category": "bottle",
+        "total_images": 209,
+        "total_patches_before_subsample": 214016,
+        "memory_bank_patches_after_subsample": 50000,
+        "embedding_dim": 384,
+        "reference_grid_size_hw": [
+          32,
+          32
+        ],
+        "return_nodes": [
+          "layer2",
+          "layer3"
+        ],
+        "reference_node": "layer2",
+        "l2_normalize_embeddings": true
+      }
+    },
+    "evaluation_summary": {
+      "dataset_name": "mvtec_ad",
+      "category": "bottle",
+      "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/bottle_memory_bank.pt",
+      "image_size": 256,
+      "total_test_samples": 83,
+      "normal_samples": 20,
+      "anomalous_samples": 63,
+      "image_level_metrics": {
+        "auroc": 1.0,
+        "average_precision": 0.9999999999999998
+      },
+      "pixel_level_metrics": {
+        "auroc": 0.982672479331444,
+        "average_precision": 0.7305310735813598
+      },
+      "top_10_highest_scores": [
+        {
+          "sample_index": 56,
+          "image_path": "data/mvtec_ad/bottle/test/contamination/014.png",
+          "defect_type": "contamination",
+          "label": 1,
+          "image_score": 1.0384994745254517,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 900,
+          "image_w": 900,
+          "mask_positive_pixels": 5429
+        },
+        {
+          "sample_index": 49,
+          "image_path": "data/mvtec_ad/bottle/test/contamination/007.png",
+          "defect_type": "contamination",
+          "label": 1,
+          "image_score": 1.0303404331207275,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 900,
+          "image_w": 900,
+          "mask_positive_pixels": 45048
+        },
+        {
+          "sample_index": 59,
+          "image_path": "data/mvtec_ad/bottle/test/contamination/017.png",
+          "defect_type": "contamination",
+          "label": 1,
+          "image_score": 1.0009955167770386,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 900,
+          "image_w": 900,
+          "mask_positive_pixels": 67541
+        },
+        {
+          "sample_index": 6,
+          "image_path": "data/mvtec_ad/bottle/test/broken_large/006.png",
+          "defect_type": "broken_large",
+          "label": 1,
+          "image_score": 1.0006394386291504,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 900,
+          "image_w": 900,
+          "mask_positive_pixels": 123810
+        },
+        {
+          "sample_index": 18,
+          "image_path": "data/mvtec_ad/bottle/test/broken_large/018.png",
+          "defect_type": "broken_large",
+          "label": 1,
+          "image_score": 0.9912993907928467,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 900,
+          "image_w": 900,
+          "mask_positive_pixels": 106080
+        },
+        {
+          "sample_index": 3,
+          "image_path": "data/mvtec_ad/bottle/test/broken_large/003.png",
+          "defect_type": "broken_large",
+          "label": 1,
+          "image_score": 0.9898985624313354,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 900,
+          "image_w": 900,
+          "mask_positive_pixels": 222091
+        },
+        {
+          "sample_index": 24,
+          "image_path": "data/mvtec_ad/bottle/test/broken_small/004.png",
+          "defect_type": "broken_small",
+          "label": 1,
+          "image_score": 0.9799456000328064,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 900,
+          "image_w": 900,
+          "mask_positive_pixels": 25926
+        },
+        {
+          "sample_index": 55,
+          "image_path": "data/mvtec_ad/bottle/test/contamination/013.png",
+          "defect_type": "contamination",
+          "label": 1,
+          "image_score": 0.9770089387893677,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 900,
+          "image_w": 900,
+          "mask_positive_pixels": 41319
+        },
+        {
+          "sample_index": 4,
+          "image_path": "data/mvtec_ad/bottle/test/broken_large/004.png",
+          "defect_type": "broken_large",
+          "label": 1,
+          "image_score": 0.9735274910926819,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 900,
+          "image_w": 900,
+          "mask_positive_pixels": 33132
+        },
+        {
+          "sample_index": 1,
+          "image_path": "data/mvtec_ad/bottle/test/broken_large/001.png",
+          "defect_type": "broken_large",
+          "label": 1,
+          "image_score": 0.9685692191123962,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 900,
+          "image_w": 900,
+          "mask_positive_pixels": 76641
+        }
+      ],
+      "files": {
+        "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/bottle/bottle_image_scores.csv",
+        "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/bottle/bottle_evaluation_summary.json"
+      }
+    }
+  },
+  {
+    "category": "transistor",
+    "build_result": {
+      "category": "transistor",
+      "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/transistor_memory_bank.pt",
+      "build_summary": {
+        "category": "transistor",
+        "total_images": 213,
+        "total_patches_before_subsample": 218112,
+        "memory_bank_patches_after_subsample": 50000,
+        "embedding_dim": 384,
+        "reference_grid_size_hw": [
+          32,
+          32
+        ],
+        "return_nodes": [
+          "layer2",
+          "layer3"
+        ],
+        "reference_node": "layer2",
+        "l2_normalize_embeddings": true
+      }
+    },
+    "evaluation_summary": {
+      "dataset_name": "mvtec_ad",
+      "category": "transistor",
+      "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/transistor_memory_bank.pt",
+      "image_size": 256,
+      "total_test_samples": 100,
+      "normal_samples": 60,
+      "anomalous_samples": 40,
+      "image_level_metrics": {
+        "auroc": 0.9762500000000001,
+        "average_precision": 0.9697694708590278
+      },
+      "pixel_level_metrics": {
+        "auroc": 0.8551585386992052,
+        "average_precision": 0.49099491555727165
+      },
+      "top_10_highest_scores": [
+        {
+          "sample_index": 97,
+          "image_path": "data/mvtec_ad/transistor/test/misplaced/007.png",
+          "defect_type": "misplaced",
+          "label": 1,
+          "image_score": 0.9866515398025513,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 512572
+        },
+        {
+          "sample_index": 98,
+          "image_path": "data/mvtec_ad/transistor/test/misplaced/008.png",
+          "defect_type": "misplaced",
+          "label": 1,
+          "image_score": 0.9609450101852417,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 517163
+        },
+        {
+          "sample_index": 95,
+          "image_path": "data/mvtec_ad/transistor/test/misplaced/005.png",
+          "defect_type": "misplaced",
+          "label": 1,
+          "image_score": 0.9071865677833557,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 450193
+        },
+        {
+          "sample_index": 29,
+          "image_path": "data/mvtec_ad/transistor/test/damaged_case/009.png",
+          "defect_type": "damaged_case",
+          "label": 1,
+          "image_score": 0.9067690372467041,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 53178
+        },
+        {
+          "sample_index": 21,
+          "image_path": "data/mvtec_ad/transistor/test/damaged_case/001.png",
+          "defect_type": "damaged_case",
+          "label": 1,
+          "image_score": 0.9013935923576355,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 56114
+        },
+        {
+          "sample_index": 28,
+          "image_path": "data/mvtec_ad/transistor/test/damaged_case/008.png",
+          "defect_type": "damaged_case",
+          "label": 1,
+          "image_score": 0.895433247089386,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 52956
+        },
+        {
+          "sample_index": 91,
+          "image_path": "data/mvtec_ad/transistor/test/misplaced/001.png",
+          "defect_type": "misplaced",
+          "label": 1,
+          "image_score": 0.894969642162323,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 428411
+        },
+        {
+          "sample_index": 25,
+          "image_path": "data/mvtec_ad/transistor/test/damaged_case/005.png",
+          "defect_type": "damaged_case",
+          "label": 1,
+          "image_score": 0.8791729211807251,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 36644
+        },
+        {
+          "sample_index": 20,
+          "image_path": "data/mvtec_ad/transistor/test/damaged_case/000.png",
+          "defect_type": "damaged_case",
+          "label": 1,
+          "image_score": 0.8769747614860535,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 15585
+        },
+        {
+          "sample_index": 94,
+          "image_path": "data/mvtec_ad/transistor/test/misplaced/004.png",
+          "defect_type": "misplaced",
+          "label": 1,
+          "image_score": 0.8743893504142761,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 423908
+        }
+      ],
+      "files": {
+        "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/transistor/transistor_image_scores.csv",
+        "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/transistor/transistor_evaluation_summary.json"
+      }
+    }
+  },
+  {
+    "category": "cable",
+    "build_result": {
+      "category": "cable",
+      "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/cable_memory_bank.pt",
+      "build_summary": {
+        "category": "cable",
+        "total_images": 224,
+        "total_patches_before_subsample": 229376,
+        "memory_bank_patches_after_subsample": 50000,
+        "embedding_dim": 384,
+        "reference_grid_size_hw": [
+          32,
+          32
+        ],
+        "return_nodes": [
+          "layer2",
+          "layer3"
+        ],
+        "reference_node": "layer2",
+        "l2_normalize_embeddings": true
+      }
+    },
+    "evaluation_summary": {
+      "dataset_name": "mvtec_ad",
+      "category": "cable",
+      "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/cable_memory_bank.pt",
+      "image_size": 256,
+      "total_test_samples": 150,
+      "normal_samples": 58,
+      "anomalous_samples": 92,
+      "image_level_metrics": {
+        "auroc": 0.9881934032983508,
+        "average_precision": 0.9928925963549421
+      },
+      "pixel_level_metrics": {
+        "auroc": 0.9595416766982425,
+        "average_precision": 0.5777650272907026
+      },
+      "top_10_highest_scores": [
+        {
+          "sample_index": 33,
+          "image_path": "data/mvtec_ad/cable/test/combined/008.png",
+          "defect_type": "combined",
+          "label": 1,
+          "image_score": 1.0261050462722778,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 48510
+        },
+        {
+          "sample_index": 4,
+          "image_path": "data/mvtec_ad/cable/test/bent_wire/004.png",
+          "defect_type": "bent_wire",
+          "label": 1,
+          "image_score": 1.0160189867019653,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 32843
+        },
+        {
+          "sample_index": 11,
+          "image_path": "data/mvtec_ad/cable/test/bent_wire/011.png",
+          "defect_type": "bent_wire",
+          "label": 1,
+          "image_score": 0.9919593334197998,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 119231
+        },
+        {
+          "sample_index": 9,
+          "image_path": "data/mvtec_ad/cable/test/bent_wire/009.png",
+          "defect_type": "bent_wire",
+          "label": 1,
+          "image_score": 0.9784990549087524,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 38202
+        },
+        {
+          "sample_index": 5,
+          "image_path": "data/mvtec_ad/cable/test/bent_wire/005.png",
+          "defect_type": "bent_wire",
+          "label": 1,
+          "image_score": 0.9734856486320496,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 37738
+        },
+        {
+          "sample_index": 124,
+          "image_path": "data/mvtec_ad/cable/test/missing_cable/006.png",
+          "defect_type": "missing_cable",
+          "label": 1,
+          "image_score": 0.9698530435562134,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 236776
+        },
+        {
+          "sample_index": 12,
+          "image_path": "data/mvtec_ad/cable/test/bent_wire/012.png",
+          "defect_type": "bent_wire",
+          "label": 1,
+          "image_score": 0.9666325449943542,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 72366
+        },
+        {
+          "sample_index": 10,
+          "image_path": "data/mvtec_ad/cable/test/bent_wire/010.png",
+          "defect_type": "bent_wire",
+          "label": 1,
+          "image_score": 0.9653958678245544,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 38102
+        },
+        {
+          "sample_index": 25,
+          "image_path": "data/mvtec_ad/cable/test/combined/000.png",
+          "defect_type": "combined",
+          "label": 1,
+          "image_score": 0.9556090235710144,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 42321
+        },
+        {
+          "sample_index": 1,
+          "image_path": "data/mvtec_ad/cable/test/bent_wire/001.png",
+          "defect_type": "bent_wire",
+          "label": 1,
+          "image_score": 0.9551673531532288,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 15206
+        }
+      ],
+      "files": {
+        "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/cable/cable_image_scores.csv",
+        "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/cable/cable_evaluation_summary.json"
+      }
+    }
+  },
+  {
+    "category": "capsule",
+    "build_result": {
+      "category": "capsule",
+      "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/capsule_memory_bank.pt",
+      "build_summary": {
+        "category": "capsule",
+        "total_images": 219,
+        "total_patches_before_subsample": 224256,
+        "memory_bank_patches_after_subsample": 50000,
+        "embedding_dim": 384,
+        "reference_grid_size_hw": [
+          32,
+          32
+        ],
+        "return_nodes": [
+          "layer2",
+          "layer3"
+        ],
+        "reference_node": "layer2",
+        "l2_normalize_embeddings": true
+      }
+    },
+    "evaluation_summary": {
+      "dataset_name": "mvtec_ad",
+      "category": "capsule",
+      "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/capsule_memory_bank.pt",
+      "image_size": 256,
+      "total_test_samples": 132,
+      "normal_samples": 23,
+      "anomalous_samples": 109,
+      "image_level_metrics": {
+        "auroc": 0.9297965696051057,
+        "average_precision": 0.9836312852328285
+      },
+      "pixel_level_metrics": {
+        "auroc": 0.9751732578532517,
+        "average_precision": 0.3843095984319113
+      },
+      "top_10_highest_scores": [
+        {
+          "sample_index": 1,
+          "image_path": "data/mvtec_ad/capsule/test/crack/001.png",
+          "defect_type": "crack",
+          "label": 1,
+          "image_score": 0.9749447107315063,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1000,
+          "image_w": 1000,
+          "mask_positive_pixels": 23268
+        },
+        {
+          "sample_index": 4,
+          "image_path": "data/mvtec_ad/capsule/test/crack/004.png",
+          "defect_type": "crack",
+          "label": 1,
+          "image_score": 0.950867235660553,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1000,
+          "image_w": 1000,
+          "mask_positive_pixels": 3043
+        },
+        {
+          "sample_index": 15,
+          "image_path": "data/mvtec_ad/capsule/test/crack/015.png",
+          "defect_type": "crack",
+          "label": 1,
+          "image_score": 0.947009801864624,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1000,
+          "image_w": 1000,
+          "mask_positive_pixels": 11638
+        },
+        {
+          "sample_index": 17,
+          "image_path": "data/mvtec_ad/capsule/test/crack/017.png",
+          "defect_type": "crack",
+          "label": 1,
+          "image_score": 0.9405460953712463,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1000,
+          "image_w": 1000,
+          "mask_positive_pixels": 4812
+        },
+        {
+          "sample_index": 10,
+          "image_path": "data/mvtec_ad/capsule/test/crack/010.png",
+          "defect_type": "crack",
+          "label": 1,
+          "image_score": 0.9188858270645142,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1000,
+          "image_w": 1000,
+          "mask_positive_pixels": 17974
+        },
+        {
+          "sample_index": 127,
+          "image_path": "data/mvtec_ad/capsule/test/squeeze/015.png",
+          "defect_type": "squeeze",
+          "label": 1,
+          "image_score": 0.911659836769104,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1000,
+          "image_w": 1000,
+          "mask_positive_pixels": 23973
+        },
+        {
+          "sample_index": 112,
+          "image_path": "data/mvtec_ad/capsule/test/squeeze/000.png",
+          "defect_type": "squeeze",
+          "label": 1,
+          "image_score": 0.8913899660110474,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1000,
+          "image_w": 1000,
+          "mask_positive_pixels": 76945
+        },
+        {
+          "sample_index": 76,
+          "image_path": "data/mvtec_ad/capsule/test/poke/008.png",
+          "defect_type": "poke",
+          "label": 1,
+          "image_score": 0.8886561989784241,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1000,
+          "image_w": 1000,
+          "mask_positive_pixels": 5162
+        },
+        {
+          "sample_index": 11,
+          "image_path": "data/mvtec_ad/capsule/test/crack/011.png",
+          "defect_type": "crack",
+          "label": 1,
+          "image_score": 0.8874179720878601,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1000,
+          "image_w": 1000,
+          "mask_positive_pixels": 5428
+        },
+        {
+          "sample_index": 12,
+          "image_path": "data/mvtec_ad/capsule/test/crack/012.png",
+          "defect_type": "crack",
+          "label": 1,
+          "image_score": 0.8760596513748169,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1000,
+          "image_w": 1000,
+          "mask_positive_pixels": 3416
+        }
+      ],
+      "files": {
+        "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/capsule/capsule_image_scores.csv",
+        "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/capsule/capsule_evaluation_summary.json"
+      }
+    }
+  },
+  {
+    "category": "screw",
+    "build_result": {
+      "category": "screw",
+      "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/screw_memory_bank.pt",
+      "build_summary": {
+        "category": "screw",
+        "total_images": 320,
+        "total_patches_before_subsample": 327680,
+        "memory_bank_patches_after_subsample": 50000,
+        "embedding_dim": 384,
+        "reference_grid_size_hw": [
+          32,
+          32
+        ],
+        "return_nodes": [
+          "layer2",
+          "layer3"
+        ],
+        "reference_node": "layer2",
+        "l2_normalize_embeddings": true
+      }
+    },
+    "evaluation_summary": {
+      "dataset_name": "mvtec_ad",
+      "category": "screw",
+      "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/screw_memory_bank.pt",
+      "image_size": 256,
+      "total_test_samples": 160,
+      "normal_samples": 41,
+      "anomalous_samples": 119,
+      "image_level_metrics": {
+        "auroc": 0.8891166222586595,
+        "average_precision": 0.952543890747877
+      },
+      "pixel_level_metrics": {
+        "auroc": 0.9754001078533575,
+        "average_precision": 0.24314843177070042
+      },
+      "top_10_highest_scores": [
+        {
+          "sample_index": 98,
+          "image_path": "data/mvtec_ad/screw/test/scratch_neck/009.png",
+          "defect_type": "scratch_neck",
+          "label": 1,
+          "image_score": 0.8661813735961914,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 2582
+        },
+        {
+          "sample_index": 92,
+          "image_path": "data/mvtec_ad/screw/test/scratch_neck/003.png",
+          "defect_type": "scratch_neck",
+          "label": 1,
+          "image_score": 0.8586584329605103,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 2614
+        },
+        {
+          "sample_index": 97,
+          "image_path": "data/mvtec_ad/screw/test/scratch_neck/008.png",
+          "defect_type": "scratch_neck",
+          "label": 1,
+          "image_score": 0.8516073822975159,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 4567
+        },
+        {
+          "sample_index": 105,
+          "image_path": "data/mvtec_ad/screw/test/scratch_neck/016.png",
+          "defect_type": "scratch_neck",
+          "label": 1,
+          "image_score": 0.8138536214828491,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 3955
+        },
+        {
+          "sample_index": 96,
+          "image_path": "data/mvtec_ad/screw/test/scratch_neck/007.png",
+          "defect_type": "scratch_neck",
+          "label": 1,
+          "image_score": 0.8035064935684204,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 3062
+        },
+        {
+          "sample_index": 95,
+          "image_path": "data/mvtec_ad/screw/test/scratch_neck/006.png",
+          "defect_type": "scratch_neck",
+          "label": 1,
+          "image_score": 0.8029420971870422,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 4725
+        },
+        {
+          "sample_index": 108,
+          "image_path": "data/mvtec_ad/screw/test/scratch_neck/019.png",
+          "defect_type": "scratch_neck",
+          "label": 1,
+          "image_score": 0.8003130555152893,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 4108
+        },
+        {
+          "sample_index": 102,
+          "image_path": "data/mvtec_ad/screw/test/scratch_neck/013.png",
+          "defect_type": "scratch_neck",
+          "label": 1,
+          "image_score": 0.7961949706077576,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 3198
+        },
+        {
+          "sample_index": 113,
+          "image_path": "data/mvtec_ad/screw/test/scratch_neck/024.png",
+          "defect_type": "scratch_neck",
+          "label": 1,
+          "image_score": 0.7915514707565308,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 3240
+        },
+        {
+          "sample_index": 107,
+          "image_path": "data/mvtec_ad/screw/test/scratch_neck/018.png",
+          "defect_type": "scratch_neck",
+          "label": 1,
+          "image_score": 0.7880671620368958,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 1024,
+          "image_w": 1024,
+          "mask_positive_pixels": 3269
+        }
+      ],
+      "files": {
+        "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/screw/screw_image_scores.csv",
+        "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/screw/screw_evaluation_summary.json"
+      }
+    }
+  },
+  {
+    "category": "metal_nut",
+    "build_result": {
+      "category": "metal_nut",
+      "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/metal_nut_memory_bank.pt",
+      "build_summary": {
+        "category": "metal_nut",
+        "total_images": 220,
+        "total_patches_before_subsample": 225280,
+        "memory_bank_patches_after_subsample": 50000,
+        "embedding_dim": 384,
+        "reference_grid_size_hw": [
+          32,
+          32
+        ],
+        "return_nodes": [
+          "layer2",
+          "layer3"
+        ],
+        "reference_node": "layer2",
+        "l2_normalize_embeddings": true
+      }
+    },
+    "evaluation_summary": {
+      "dataset_name": "mvtec_ad",
+      "category": "metal_nut",
+      "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/metal_nut_memory_bank.pt",
+      "image_size": 256,
+      "total_test_samples": 115,
+      "normal_samples": 22,
+      "anomalous_samples": 93,
+      "image_level_metrics": {
+        "auroc": 1.0,
+        "average_precision": 1.0
+      },
+      "pixel_level_metrics": {
+        "auroc": 0.9474189144995767,
+        "average_precision": 0.7411835054974281
+      },
+      "top_10_highest_scores": [
+        {
+          "sample_index": 45,
+          "image_path": "data/mvtec_ad/metal_nut/test/color/020.png",
+          "defect_type": "color",
+          "label": 1,
+          "image_score": 0.9580313563346863,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 700,
+          "image_w": 700,
+          "mask_positive_pixels": 17990
+        },
+        {
+          "sample_index": 57,
+          "image_path": "data/mvtec_ad/metal_nut/test/flip/010.png",
+          "defect_type": "flip",
+          "label": 1,
+          "image_score": 0.9427981972694397,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 700,
+          "image_w": 700,
+          "mask_positive_pixels": 236323
+        },
+        {
+          "sample_index": 110,
+          "image_path": "data/mvtec_ad/metal_nut/test/scratch/018.png",
+          "defect_type": "scratch",
+          "label": 1,
+          "image_score": 0.9260292053222656,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 700,
+          "image_w": 700,
+          "mask_positive_pixels": 19395
+        },
+        {
+          "sample_index": 36,
+          "image_path": "data/mvtec_ad/metal_nut/test/color/011.png",
+          "defect_type": "color",
+          "label": 1,
+          "image_score": 0.9243714809417725,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 700,
+          "image_w": 700,
+          "mask_positive_pixels": 22001
+        },
+        {
+          "sample_index": 63,
+          "image_path": "data/mvtec_ad/metal_nut/test/flip/016.png",
+          "defect_type": "flip",
+          "label": 1,
+          "image_score": 0.9210929274559021,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 700,
+          "image_w": 700,
+          "mask_positive_pixels": 238493
+        },
+        {
+          "sample_index": 66,
+          "image_path": "data/mvtec_ad/metal_nut/test/flip/019.png",
+          "defect_type": "flip",
+          "label": 1,
+          "image_score": 0.9202049374580383,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 700,
+          "image_w": 700,
+          "mask_positive_pixels": 236666
+        },
+        {
+          "sample_index": 50,
+          "image_path": "data/mvtec_ad/metal_nut/test/flip/003.png",
+          "defect_type": "flip",
+          "label": 1,
+          "image_score": 0.9170107245445251,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 700,
+          "image_w": 700,
+          "mask_positive_pixels": 238487
+        },
+        {
+          "sample_index": 2,
+          "image_path": "data/mvtec_ad/metal_nut/test/bent/002.png",
+          "defect_type": "bent",
+          "label": 1,
+          "image_score": 0.9167701005935669,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 700,
+          "image_w": 700,
+          "mask_positive_pixels": 4763
+        },
+        {
+          "sample_index": 24,
+          "image_path": "data/mvtec_ad/metal_nut/test/bent/024.png",
+          "defect_type": "bent",
+          "label": 1,
+          "image_score": 0.9156076908111572,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 700,
+          "image_w": 700,
+          "mask_positive_pixels": 9177
+        },
+        {
+          "sample_index": 53,
+          "image_path": "data/mvtec_ad/metal_nut/test/flip/006.png",
+          "defect_type": "flip",
+          "label": 1,
+          "image_score": 0.9151232242584229,
+          "patch_grid_h": 32,
+          "patch_grid_w": 32,
+          "image_h": 700,
+          "image_w": 700,
+          "mask_positive_pixels": 235543
+        }
+      ],
+      "files": {
+        "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/metal_nut/metal_nut_image_scores.csv",
+        "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/metal_nut/metal_nut_evaluation_summary.json"
+      }
+    }
+  }
+]

@@ -1,0 +1,7 @@
+category,feature_best_f1,ae_best_f1,hybrid_best_f1,best_detector,recommended_method
+bottle,0.992,0.881,0.863,Feature,F:normal_p99_0 | AE:normal_p99_0 | H:normal_p99_0
+cable,0.951,0.76,0.76,Feature,F:normal_p99_0 | AE:normal_p99_0 | H:normal_p99_0
+capsule,0.951,0.905,0.912,Feature,F:normal_p99_0 | AE:normal_p99_0 | H:normal_p99_0
+metal_nut,0.995,0.894,0.894,Feature,F:normal_p99_0 | AE:normal_p99_0 | H:normal_p99_0
+screw,0.908,0.853,0.849,Feature,F:normal_p99_0 | AE:normal_p99_0 | H:normal_p99_0
+transistor,0.914,0.571,0.571,Feature,F:normal_p99_0 | AE:normal_p99_0 | H:normal_p99_0

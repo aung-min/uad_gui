@@ -1,0 +1,41 @@
+{
+  "detector": "ae",
+  "detector_display_name": "Autoencoder",
+  "category": "screw",
+  "threshold_source": "recommended:normal_p99_0",
+  "threshold": 0.013753675855696201,
+  "accuracy": 0.74375,
+  "precision": 0.74375,
+  "recall": 1.0,
+  "specificity": 0.0,
+  "f1": 0.8530465949820788,
+  "tp": 119,
+  "tn": 0,
+  "fp": 41,
+  "fn": 0,
+  "total_images": 160,
+  "normal_images": 41,
+  "anomalous_images": 119,
+  "source_files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/screw/screw_image_scores.csv",
+    "threshold_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/screw/screw_ae_thresholds.json"
+  },
+  "files": {
+    "dashboard_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/screw/screw_ae_confusion_threshold_dashboard.png",
+    "threshold_sweep_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/screw/screw_ae_threshold_sweep.csv",
+    "confusion_matrix_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/screw/screw_ae_confusion_matrix.csv",
+    "selected_metrics_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/screw/screw_ae_selected_metrics.csv",
+    "score_distribution_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/screw/screw_ae_score_distribution.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/ae/screw/screw_ae_dashboard_summary.json"
+  },
+  "font_config": {
+    "title": 20,
+    "axis_label": 18,
+    "tick": 12,
+    "legend": 11,
+    "matrix_cell": 14,
+    "summary": 14,
+    "suptitle": 24,
+    "colorbar_tick": 11
+  }
+}

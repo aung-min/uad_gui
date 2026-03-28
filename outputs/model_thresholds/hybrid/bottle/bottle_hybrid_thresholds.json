@@ -1,0 +1,60 @@
+{
+  "dataset_name": "mvtec_ad",
+  "detector_name": "hybrid",
+  "category": "bottle",
+  "total_test_samples": 83,
+  "normal_samples": 20,
+  "anomalous_samples": 63,
+  "score_stats": {
+    "normal_min": 0.7456423044204712,
+    "normal_max": 0.9527285099029541,
+    "normal_mean": 0.8427330255508423,
+    "anomaly_min": 0.6907315850257874,
+    "anomaly_max": 0.9964715242385864,
+    "anomaly_mean": 0.9096296429634094
+  },
+  "percentile_thresholds": {
+    "normal_p90_0": 0.8985702395439148,
+    "normal_p95_0": 0.9201130270957947,
+    "normal_p97_5": 0.9364207983016968,
+    "normal_p99_0": 0.9462053775787354,
+    "normal_p99_5": 0.9494670033454895
+  },
+  "recommended_for_gui": {
+    "method": "normal_p99_0",
+    "threshold": 0.9462053775787354,
+    "reason": "normal-score percentile threshold using only normal test samples"
+  },
+  "best_f1_threshold": {
+    "threshold": 0.6907315850257874,
+    "accuracy": 0.7590361445783133,
+    "precision": 0.7590361445783133,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "f1": 0.8630136986301369,
+    "tp": 63,
+    "tn": 0,
+    "fp": 20,
+    "fn": 0,
+    "selection_method": "best_f1"
+  },
+  "best_youden_threshold": {
+    "threshold": 0.8978527188301086,
+    "accuracy": 0.7710843373493976,
+    "precision": 0.9583333333333334,
+    "recall": 0.7301587301587301,
+    "specificity": 0.9,
+    "f1": 0.8288288288288289,
+    "tp": 46,
+    "tn": 18,
+    "fp": 2,
+    "fn": 17,
+    "selection_method": "best_youden_j",
+    "youden_j": 0.6301587301587301
+  },
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/bottle/bottle_hybrid_threshold_scores.csv",
+    "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/bottle/bottle_hybrid_threshold_candidates.csv",
+    "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/bottle/bottle_hybrid_thresholds.json"
+  }
+}

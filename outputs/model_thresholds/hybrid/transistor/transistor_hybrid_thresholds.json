@@ -1,0 +1,60 @@
+{
+  "dataset_name": "mvtec_ad",
+  "detector_name": "hybrid",
+  "category": "transistor",
+  "total_test_samples": 100,
+  "normal_samples": 60,
+  "anomalous_samples": 40,
+  "score_stats": {
+    "normal_min": 0.7293095588684082,
+    "normal_max": 0.9530837535858154,
+    "normal_mean": 0.8569385409355164,
+    "anomaly_min": 0.7011042237281799,
+    "anomaly_max": 0.9610345363616943,
+    "anomaly_mean": 0.8502570986747742
+  },
+  "percentile_thresholds": {
+    "normal_p90_0": 0.928000807762146,
+    "normal_p95_0": 0.9326600432395935,
+    "normal_p97_5": 0.9370085000991821,
+    "normal_p99_0": 0.9438443779945374,
+    "normal_p99_5": 0.9484640955924988
+  },
+  "recommended_for_gui": {
+    "method": "normal_p99_0",
+    "threshold": 0.9438443779945374,
+    "reason": "normal-score percentile threshold using only normal test samples"
+  },
+  "best_f1_threshold": {
+    "threshold": 0.7011042237281799,
+    "accuracy": 0.4,
+    "precision": 0.4,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "f1": 0.5714285714285715,
+    "tp": 40,
+    "tn": 0,
+    "fp": 60,
+    "fn": 0,
+    "selection_method": "best_f1"
+  },
+  "best_youden_threshold": {
+    "threshold": 0.9337301850318909,
+    "accuracy": 0.65,
+    "precision": 0.7272727272727273,
+    "recall": 0.2,
+    "specificity": 0.95,
+    "f1": 0.3137254901960785,
+    "tp": 8,
+    "tn": 57,
+    "fp": 3,
+    "fn": 32,
+    "selection_method": "best_youden_j",
+    "youden_j": 0.15000000000000002
+  },
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/transistor/transistor_hybrid_threshold_scores.csv",
+    "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/transistor/transistor_hybrid_threshold_candidates.csv",
+    "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/transistor/transistor_hybrid_thresholds.json"
+  }
+}

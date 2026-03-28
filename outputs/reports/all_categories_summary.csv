@@ -1,0 +1,7 @@
+category,memory_bank_path,image_auroc,image_average_precision,pixel_auroc,pixel_average_precision,total_test_samples,normal_samples,anomalous_samples,memory_bank_patches_after_subsample,embedding_dim
+bottle,/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/bottle_memory_bank.pt,1.0,0.9999999999999998,0.982672479331444,0.7305310735813598,83,20,63,50000,384
+metal_nut,/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/metal_nut_memory_bank.pt,1.0,1.0,0.9474189144995767,0.7411835054974281,115,22,93,50000,384
+cable,/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/cable_memory_bank.pt,0.9881934032983508,0.9928925963549421,0.9595416766982425,0.5777650272907026,150,58,92,50000,384
+transistor,/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/transistor_memory_bank.pt,0.9762500000000001,0.9697694708590278,0.8551585386992052,0.49099491555727165,100,60,40,50000,384
+capsule,/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/capsule_memory_bank.pt,0.9297965696051057,0.9836312852328285,0.9751732578532517,0.3843095984319113,132,23,109,50000,384
+screw,/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/screw_memory_bank.pt,0.8891166222586595,0.952543890747877,0.9754001078533575,0.24314843177070042,160,41,119,50000,384

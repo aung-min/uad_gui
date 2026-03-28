@@ -1,0 +1,124 @@
+{
+  "dataset_name": "mvtec_ad",
+  "detector_name": "autoencoder",
+  "category": "cable",
+  "checkpoint_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/cable_ae/checkpoints/model_best.pt",
+  "image_size": 256,
+  "total_test_samples": 150,
+  "normal_samples": 58,
+  "anomalous_samples": 92,
+  "image_level_metrics": {
+    "auroc": 0.5760869565217391,
+    "average_precision": 0.7283733790841975
+  },
+  "pixel_level_metrics": {
+    "auroc": 0.5494072428502681,
+    "average_precision": 0.03634493978552672
+  },
+  "top_10_highest_scores": [
+    {
+      "sample_index": 11,
+      "image_path": "data/mvtec_ad/cable/test/bent_wire/011.png",
+      "defect_type": "bent_wire",
+      "label": 1,
+      "image_score": 0.04012171924114227,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 119231
+    },
+    {
+      "sample_index": 55,
+      "image_path": "data/mvtec_ad/cable/test/cut_outer_insulation/005.png",
+      "defect_type": "cut_outer_insulation",
+      "label": 1,
+      "image_score": 0.03790893405675888,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 4647
+    },
+    {
+      "sample_index": 36,
+      "image_path": "data/mvtec_ad/cable/test/cut_inner_insulation/000.png",
+      "defect_type": "cut_inner_insulation",
+      "label": 1,
+      "image_score": 0.037601288408041,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 33306
+    },
+    {
+      "sample_index": 53,
+      "image_path": "data/mvtec_ad/cable/test/cut_outer_insulation/003.png",
+      "defect_type": "cut_outer_insulation",
+      "label": 1,
+      "image_score": 0.037591416388750076,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 7697
+    },
+    {
+      "sample_index": 59,
+      "image_path": "data/mvtec_ad/cable/test/cut_outer_insulation/009.png",
+      "defect_type": "cut_outer_insulation",
+      "label": 1,
+      "image_score": 0.036538705229759216,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 10318
+    },
+    {
+      "sample_index": 13,
+      "image_path": "data/mvtec_ad/cable/test/cable_swap/000.png",
+      "defect_type": "cable_swap",
+      "label": 1,
+      "image_score": 0.0361151359975338,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 67133
+    },
+    {
+      "sample_index": 18,
+      "image_path": "data/mvtec_ad/cable/test/cable_swap/005.png",
+      "defect_type": "cable_swap",
+      "label": 1,
+      "image_score": 0.03599976375699043,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 65474
+    },
+    {
+      "sample_index": 128,
+      "image_path": "data/mvtec_ad/cable/test/missing_cable/010.png",
+      "defect_type": "missing_cable",
+      "label": 1,
+      "image_score": 0.03548648953437805,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 84372
+    },
+    {
+      "sample_index": 101,
+      "image_path": "data/mvtec_ad/cable/test/good/041.png",
+      "defect_type": "good",
+      "label": 0,
+      "image_score": 0.03511631116271019,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 0
+    },
+    {
+      "sample_index": 39,
+      "image_path": "data/mvtec_ad/cable/test/cut_inner_insulation/003.png",
+      "defect_type": "cut_inner_insulation",
+      "label": 1,
+      "image_score": 0.03504405543208122,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 62868
+    }
+  ],
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_reports/cable/cable_ae_image_scores.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_reports/cable/cable_ae_evaluation_summary.json"
+  }
+}

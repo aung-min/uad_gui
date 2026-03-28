@@ -1,0 +1,60 @@
+{
+  "dataset_name": "mvtec_ad",
+  "detector_name": "ae",
+  "category": "cable",
+  "total_test_samples": 150,
+  "normal_samples": 58,
+  "anomalous_samples": 92,
+  "score_stats": {
+    "normal_min": 0.02689814195036888,
+    "normal_max": 0.03511631116271019,
+    "normal_mean": 0.030211497098207474,
+    "anomaly_min": 0.02396334335207939,
+    "anomaly_max": 0.04012171924114227,
+    "anomaly_mean": 0.030969109386205673
+  },
+  "percentile_thresholds": {
+    "normal_p90_0": 0.033311035484075546,
+    "normal_p95_0": 0.03424341604113579,
+    "normal_p97_5": 0.03476022556424141,
+    "normal_p99_0": 0.03504176810383797,
+    "normal_p99_5": 0.03507903963327408
+  },
+  "recommended_for_gui": {
+    "method": "normal_p99_0",
+    "threshold": 0.03504176810383797,
+    "reason": "normal-score percentile threshold using only normal test samples"
+  },
+  "best_f1_threshold": {
+    "threshold": 0.02396334335207939,
+    "accuracy": 0.6133333333333333,
+    "precision": 0.6133333333333333,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "f1": 0.7603305785123966,
+    "tp": 92,
+    "tn": 0,
+    "fp": 58,
+    "fn": 0,
+    "selection_method": "best_f1"
+  },
+  "best_youden_threshold": {
+    "threshold": 0.031131207942962646,
+    "accuracy": 0.5866666666666667,
+    "precision": 0.75,
+    "recall": 0.4891304347826087,
+    "specificity": 0.7413793103448276,
+    "f1": 0.5921052631578948,
+    "tp": 45,
+    "tn": 43,
+    "fp": 15,
+    "fn": 47,
+    "selection_method": "best_youden_j",
+    "youden_j": 0.23050974512743627
+  },
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/cable/cable_ae_threshold_scores.csv",
+    "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/cable/cable_ae_threshold_candidates.csv",
+    "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/cable/cable_ae_thresholds.json"
+  }
+}

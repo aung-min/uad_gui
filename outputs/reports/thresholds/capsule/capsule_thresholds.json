@@ -1,0 +1,56 @@
+{
+  "dataset_name": "mvtec_ad",
+  "category": "capsule",
+  "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/capsule_memory_bank.pt",
+  "image_size": 256,
+  "total_test_samples": 132,
+  "normal_samples": 23,
+  "anomalous_samples": 109,
+  "score_stats": {
+    "normal_min": 0.38720381259918213,
+    "normal_max": 0.635549008846283,
+    "normal_mean": 0.5098943114280701,
+    "anomaly_min": 0.47242215275764465,
+    "anomaly_max": 0.9749447107315063,
+    "anomaly_mean": 0.7017531991004944
+  },
+  "percentile_thresholds": {
+    "normal_p90_0": 0.61445552110672,
+    "normal_p95_0": 0.631140410900116,
+    "normal_p97_5": 0.6334953904151917,
+    "normal_p99_0": 0.6347275972366333,
+    "normal_p99_5": 0.6351382732391357
+  },
+  "recommended_for_gui": {
+    "method": "normal_p99_0",
+    "threshold": 0.6347275972366333,
+    "reason": "normal-score percentile threshold using only normal test samples"
+  },
+  "best_f1_threshold": {
+    "threshold": 0.5270466208457947,
+    "accuracy": 0.9166666666666666,
+    "precision": 0.9298245614035088,
+    "recall": 0.9724770642201835,
+    "specificity": 0.6521739130434783,
+    "f1": 0.9506726457399103,
+    "tp": 106,
+    "tn": 15,
+    "fp": 8,
+    "fn": 3,
+    "selection_method": "best_f1"
+  },
+  "best_youden_threshold": {
+    "threshold": 0.552192747592926,
+    "accuracy": 0.9242424242424242,
+    "precision": 0.9541284403669725,
+    "recall": 0.9541284403669725,
+    "specificity": 0.782608695652174,
+    "f1": 0.9541284403669725,
+    "tp": 104,
+    "tn": 18,
+    "fp": 5,
+    "fn": 5,
+    "selection_method": "best_youden_j",
+    "youden_j": 0.7367371360191465
+  }
+}

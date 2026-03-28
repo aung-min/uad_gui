@@ -1,0 +1,2 @@
+category,feature_image_auroc,feature_pixel_auroc,feature_threshold,ae_image_auroc,ae_pixel_auroc,ae_threshold,hybrid_image_auroc,hybrid_pixel_auroc,hybrid_threshold,best_image_detector,best_image_auroc,best_pixel_detector,best_pixel_auroc
+cable,0.9881934032983508,0.9595416766982425,0.7883915305137634,0.5760869565217391,0.5494072428502681,0.03504176810383797,0.3416416791604197,0.9162532119587619,0.9373964667320251,feature,0.9881934032983508,feature,0.9595416766982425

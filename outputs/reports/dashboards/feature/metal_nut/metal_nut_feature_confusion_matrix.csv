@@ -1,0 +1,5 @@
+actual,predicted,count
+normal,normal,21
+normal,anomaly,1
+anomaly,normal,0
+anomaly,anomaly,93

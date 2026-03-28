@@ -1,0 +1,2 @@
+detector,category,threshold_source,threshold,accuracy,precision,recall,specificity,f1,tp,tn,fp,fn
+hybrid,metal_nut,recommended:normal_p99_0,0.9413636922836304,0.20869565217391303,1.0,0.021505376344086023,1.0,0.042105263157894736,2,22,0,91

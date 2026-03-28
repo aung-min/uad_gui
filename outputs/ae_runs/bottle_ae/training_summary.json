@@ -1,0 +1,16 @@
+{
+  "run_dir": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/bottle_ae",
+  "category": "bottle",
+  "device": "cuda",
+  "train_count": 178,
+  "val_count": 31,
+  "best_epoch": 28,
+  "best_val_loss": 0.016251113385923447,
+  "files": {
+    "model_best": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/bottle_ae/checkpoints/model_best.pt",
+    "model_last": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/bottle_ae/checkpoints/model_last.pt",
+    "training_history_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/bottle_ae/training_history.csv",
+    "training_summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/bottle_ae/training_summary.json",
+    "config_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/bottle_ae/config.json"
+  }
+}

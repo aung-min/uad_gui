@@ -1,0 +1,60 @@
+{
+  "dataset_name": "mvtec_ad",
+  "detector_name": "feature",
+  "category": "bottle",
+  "total_test_samples": 83,
+  "normal_samples": 20,
+  "anomalous_samples": 63,
+  "score_stats": {
+    "normal_min": 0.4369339644908905,
+    "normal_max": 0.5960012078285217,
+    "normal_mean": 0.5151066184043884,
+    "anomaly_min": 0.6719725131988525,
+    "anomaly_max": 1.0384994745254517,
+    "anomaly_mean": 0.9041439294815063
+  },
+  "percentile_thresholds": {
+    "normal_p90_0": 0.5851695537567139,
+    "normal_p95_0": 0.5956980586051941,
+    "normal_p97_5": 0.5958496332168579,
+    "normal_p99_0": 0.5959405899047852,
+    "normal_p99_5": 0.595970869064331
+  },
+  "recommended_for_gui": {
+    "method": "normal_p99_0",
+    "threshold": 0.5959405899047852,
+    "reason": "normal-score percentile threshold using only normal test samples"
+  },
+  "best_f1_threshold": {
+    "threshold": 0.5960012078285217,
+    "accuracy": 0.9879518072289156,
+    "precision": 0.984375,
+    "recall": 1.0,
+    "specificity": 0.95,
+    "f1": 0.9921259842519685,
+    "tp": 63,
+    "tn": 19,
+    "fp": 1,
+    "fn": 0,
+    "selection_method": "best_f1"
+  },
+  "best_youden_threshold": {
+    "threshold": 0.6719725131988525,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "f1": 1.0,
+    "tp": 63,
+    "tn": 20,
+    "fp": 0,
+    "fn": 0,
+    "selection_method": "best_youden_j",
+    "youden_j": 1.0
+  },
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/feature/bottle/bottle_feature_threshold_scores.csv",
+    "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/feature/bottle/bottle_feature_threshold_candidates.csv",
+    "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/feature/bottle/bottle_feature_thresholds.json"
+  }
+}

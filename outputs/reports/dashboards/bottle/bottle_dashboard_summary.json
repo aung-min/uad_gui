@@ -1,0 +1,25 @@
+{
+  "category": "bottle",
+  "threshold_source": "recommended:normal_p99_0",
+  "threshold": 0.5959405899047852,
+  "accuracy": 0.9879518072289156,
+  "precision": 0.984375,
+  "recall": 1.0,
+  "specificity": 0.95,
+  "f1": 0.9921259842519685,
+  "tp": 63,
+  "tn": 19,
+  "fp": 1,
+  "fn": 0,
+  "total_images": 83,
+  "normal_images": 20,
+  "anomalous_images": 63,
+  "files": {
+    "dashboard_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/bottle/bottle_confusion_threshold_dashboard.png",
+    "threshold_sweep_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/bottle/bottle_threshold_sweep.csv",
+    "confusion_matrix_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/bottle/bottle_confusion_matrix.csv",
+    "selected_metrics_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/bottle/bottle_selected_metrics.csv",
+    "score_distribution_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/bottle/bottle_score_distribution.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/bottle/bottle_dashboard_summary.json"
+  }
+}

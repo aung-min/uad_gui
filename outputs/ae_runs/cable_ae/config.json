@@ -1,0 +1,18 @@
+{
+  "dataset_name": "mvtec_ad",
+  "category": "cable",
+  "image_size": 256,
+  "batch_size": 16,
+  "epochs": 30,
+  "lr": 0.001,
+  "weight_decay": 0.0,
+  "val_ratio": 0.15,
+  "num_workers": 0,
+  "base_channels": 64,
+  "latent_channels": 512,
+  "loss": "l1",
+  "device": "cuda",
+  "seed": 42,
+  "train_count": 190,
+  "val_count": 34
+}

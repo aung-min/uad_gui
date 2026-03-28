@@ -1,0 +1,56 @@
+{
+  "dataset_name": "mvtec_ad",
+  "category": "metal_nut",
+  "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/metal_nut_memory_bank.pt",
+  "image_size": 256,
+  "total_test_samples": 115,
+  "normal_samples": 22,
+  "anomalous_samples": 93,
+  "score_stats": {
+    "normal_min": 0.6293100714683533,
+    "normal_max": 0.7450408935546875,
+    "normal_mean": 0.6746717691421509,
+    "anomaly_min": 0.7499187588691711,
+    "anomaly_max": 0.9580313563346863,
+    "anomaly_mean": 0.8714228868484497
+  },
+  "percentile_thresholds": {
+    "normal_p90_0": 0.7231535911560059,
+    "normal_p95_0": 0.7255026698112488,
+    "normal_p97_5": 0.7348368167877197,
+    "normal_p99_0": 0.7409592866897583,
+    "normal_p99_5": 0.7430000901222229
+  },
+  "recommended_for_gui": {
+    "method": "normal_p99_0",
+    "threshold": 0.7409592866897583,
+    "reason": "normal-score percentile threshold using only normal test samples"
+  },
+  "best_f1_threshold": {
+    "threshold": 0.7450408935546875,
+    "accuracy": 0.991304347826087,
+    "precision": 0.9893617021276596,
+    "recall": 1.0,
+    "specificity": 0.9545454545454546,
+    "f1": 0.9946524064171123,
+    "tp": 93,
+    "tn": 21,
+    "fp": 1,
+    "fn": 0,
+    "selection_method": "best_f1"
+  },
+  "best_youden_threshold": {
+    "threshold": 0.7499187588691711,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "f1": 1.0,
+    "tp": 93,
+    "tn": 22,
+    "fp": 0,
+    "fn": 0,
+    "selection_method": "best_youden_j",
+    "youden_j": 1.0
+  }
+}

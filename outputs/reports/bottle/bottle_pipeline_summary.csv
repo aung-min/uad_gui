@@ -1,0 +1,2 @@
+category,memory_bank_path,image_auroc,image_average_precision,pixel_auroc,pixel_average_precision,recommended_threshold_method,recommended_threshold,best_f1_threshold,best_f1,memory_bank_patches_after_subsample,embedding_dim
+bottle,/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/bottle_memory_bank.pt,1.0,0.9999999999999998,0.982672479331444,0.7305310735813598,normal_p99_0,0.5959405899047852,0.5960012078285217,0.9921259842519685,50000,384

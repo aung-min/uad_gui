@@ -1,0 +1,2 @@
+detector,category,threshold_source,threshold,accuracy,precision,recall,specificity,f1,tp,tn,fp,fn
+ae,screw,recommended:normal_p99_0,0.013753675855696201,0.74375,0.74375,1.0,0.0,0.8530465949820788,119,0,41,0

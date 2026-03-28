@@ -1,0 +1,368 @@
+[
+  {
+    "dataset_name": "mvtec_ad",
+    "category": "bottle",
+    "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/bottle_memory_bank.pt",
+    "image_size": 256,
+    "total_test_samples": 83,
+    "normal_samples": 20,
+    "anomalous_samples": 63,
+    "score_stats": {
+      "normal_min": 0.4369339644908905,
+      "normal_max": 0.5960012078285217,
+      "normal_mean": 0.5151066780090332,
+      "anomaly_min": 0.6719725131988525,
+      "anomaly_max": 1.0384994745254517,
+      "anomaly_mean": 0.9041438698768616
+    },
+    "percentile_thresholds": {
+      "normal_p90_0": 0.5851695537567139,
+      "normal_p95_0": 0.5956980586051941,
+      "normal_p97_5": 0.5958496332168579,
+      "normal_p99_0": 0.5959405899047852,
+      "normal_p99_5": 0.595970869064331
+    },
+    "recommended_for_gui": {
+      "method": "normal_p99_0",
+      "threshold": 0.5959405899047852,
+      "reason": "normal-score percentile threshold using only normal test samples"
+    },
+    "best_f1_threshold": {
+      "threshold": 0.5960012078285217,
+      "accuracy": 0.9879518072289156,
+      "precision": 0.984375,
+      "recall": 1.0,
+      "specificity": 0.95,
+      "f1": 0.9921259842519685,
+      "tp": 63,
+      "tn": 19,
+      "fp": 1,
+      "fn": 0,
+      "selection_method": "best_f1"
+    },
+    "best_youden_threshold": {
+      "threshold": 0.6719725131988525,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0,
+      "tp": 63,
+      "tn": 20,
+      "fp": 0,
+      "fn": 0,
+      "selection_method": "best_youden_j",
+      "youden_j": 1.0
+    },
+    "files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/bottle/bottle_threshold_scores.csv",
+      "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/bottle/bottle_threshold_candidates.csv",
+      "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/bottle/bottle_thresholds.json"
+    }
+  },
+  {
+    "dataset_name": "mvtec_ad",
+    "category": "transistor",
+    "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/transistor_memory_bank.pt",
+    "image_size": 256,
+    "total_test_samples": 100,
+    "normal_samples": 60,
+    "anomalous_samples": 40,
+    "score_stats": {
+      "normal_min": 0.5861829519271851,
+      "normal_max": 0.7982088327407837,
+      "normal_mean": 0.6792087554931641,
+      "anomaly_min": 0.6912201046943665,
+      "anomaly_max": 0.9866515398025513,
+      "anomaly_mean": 0.8320501446723938
+    },
+    "percentile_thresholds": {
+      "normal_p90_0": 0.7409485578536987,
+      "normal_p95_0": 0.7628129124641418,
+      "normal_p97_5": 0.7810246348381042,
+      "normal_p99_0": 0.7950738668441772,
+      "normal_p99_5": 0.7966413497924805
+    },
+    "recommended_for_gui": {
+      "method": "normal_p99_0",
+      "threshold": 0.7950738668441772,
+      "reason": "normal-score percentile threshold using only normal test samples"
+    },
+    "best_f1_threshold": {
+      "threshold": 0.7625449299812317,
+      "accuracy": 0.93,
+      "precision": 0.9024390243902439,
+      "recall": 0.925,
+      "specificity": 0.9333333333333333,
+      "f1": 0.9135802469135802,
+      "tp": 37,
+      "tn": 56,
+      "fp": 4,
+      "fn": 3,
+      "selection_method": "best_f1"
+    },
+    "best_youden_threshold": {
+      "threshold": 0.7627695798873901,
+      "accuracy": 0.94,
+      "precision": 0.925,
+      "recall": 0.925,
+      "specificity": 0.95,
+      "f1": 0.925,
+      "tp": 37,
+      "tn": 57,
+      "fp": 3,
+      "fn": 3,
+      "selection_method": "best_youden_j",
+      "youden_j": 0.875
+    },
+    "files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/transistor/transistor_threshold_scores.csv",
+      "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/transistor/transistor_threshold_candidates.csv",
+      "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/transistor/transistor_thresholds.json"
+    }
+  },
+  {
+    "dataset_name": "mvtec_ad",
+    "category": "cable",
+    "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/cable_memory_bank.pt",
+    "image_size": 256,
+    "total_test_samples": 150,
+    "normal_samples": 58,
+    "anomalous_samples": 92,
+    "score_stats": {
+      "normal_min": 0.6514254808425903,
+      "normal_max": 0.8015605807304382,
+      "normal_mean": 0.7227818965911865,
+      "anomaly_min": 0.7464869618415833,
+      "anomaly_max": 1.0261050462722778,
+      "anomaly_mean": 0.8727438449859619
+    },
+    "percentile_thresholds": {
+      "normal_p90_0": 0.7584569454193115,
+      "normal_p95_0": 0.7692056894302368,
+      "normal_p97_5": 0.7776674032211304,
+      "normal_p99_0": 0.7883915305137634,
+      "normal_p99_5": 0.7949760556221008
+    },
+    "recommended_for_gui": {
+      "method": "normal_p99_0",
+      "threshold": 0.7883915305137634,
+      "reason": "normal-score percentile threshold using only normal test samples"
+    },
+    "best_f1_threshold": {
+      "threshold": 0.7588914036750793,
+      "accuracy": 0.94,
+      "precision": 0.946236559139785,
+      "recall": 0.9565217391304348,
+      "specificity": 0.9137931034482759,
+      "f1": 0.9513513513513514,
+      "tp": 88,
+      "tn": 53,
+      "fp": 5,
+      "fn": 4,
+      "selection_method": "best_f1"
+    },
+    "best_youden_threshold": {
+      "threshold": 0.7598668336868286,
+      "accuracy": 0.9466666666666667,
+      "precision": 0.9565217391304348,
+      "recall": 0.9565217391304348,
+      "specificity": 0.9310344827586207,
+      "f1": 0.9565217391304348,
+      "tp": 88,
+      "tn": 54,
+      "fp": 4,
+      "fn": 4,
+      "selection_method": "best_youden_j",
+      "youden_j": 0.8875562218890555
+    },
+    "files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/cable/cable_threshold_scores.csv",
+      "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/cable/cable_threshold_candidates.csv",
+      "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/cable/cable_thresholds.json"
+    }
+  },
+  {
+    "dataset_name": "mvtec_ad",
+    "category": "capsule",
+    "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/capsule_memory_bank.pt",
+    "image_size": 256,
+    "total_test_samples": 132,
+    "normal_samples": 23,
+    "anomalous_samples": 109,
+    "score_stats": {
+      "normal_min": 0.38720381259918213,
+      "normal_max": 0.635549008846283,
+      "normal_mean": 0.5098943114280701,
+      "anomaly_min": 0.47242215275764465,
+      "anomaly_max": 0.9749447107315063,
+      "anomaly_mean": 0.7017531991004944
+    },
+    "percentile_thresholds": {
+      "normal_p90_0": 0.61445552110672,
+      "normal_p95_0": 0.631140410900116,
+      "normal_p97_5": 0.6334953904151917,
+      "normal_p99_0": 0.6347275972366333,
+      "normal_p99_5": 0.6351382732391357
+    },
+    "recommended_for_gui": {
+      "method": "normal_p99_0",
+      "threshold": 0.6347275972366333,
+      "reason": "normal-score percentile threshold using only normal test samples"
+    },
+    "best_f1_threshold": {
+      "threshold": 0.5270466208457947,
+      "accuracy": 0.9166666666666666,
+      "precision": 0.9298245614035088,
+      "recall": 0.9724770642201835,
+      "specificity": 0.6521739130434783,
+      "f1": 0.9506726457399103,
+      "tp": 106,
+      "tn": 15,
+      "fp": 8,
+      "fn": 3,
+      "selection_method": "best_f1"
+    },
+    "best_youden_threshold": {
+      "threshold": 0.552192747592926,
+      "accuracy": 0.9242424242424242,
+      "precision": 0.9541284403669725,
+      "recall": 0.9541284403669725,
+      "specificity": 0.782608695652174,
+      "f1": 0.9541284403669725,
+      "tp": 104,
+      "tn": 18,
+      "fp": 5,
+      "fn": 5,
+      "selection_method": "best_youden_j",
+      "youden_j": 0.7367371360191465
+    },
+    "files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/capsule/capsule_threshold_scores.csv",
+      "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/capsule/capsule_threshold_candidates.csv",
+      "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/capsule/capsule_thresholds.json"
+    }
+  },
+  {
+    "dataset_name": "mvtec_ad",
+    "category": "screw",
+    "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/screw_memory_bank.pt",
+    "image_size": 256,
+    "total_test_samples": 160,
+    "normal_samples": 41,
+    "anomalous_samples": 119,
+    "score_stats": {
+      "normal_min": 0.5434609055519104,
+      "normal_max": 0.7456291317939758,
+      "normal_mean": 0.6037865877151489,
+      "anomaly_min": 0.5834606289863586,
+      "anomaly_max": 0.8661813735961914,
+      "anomaly_mean": 0.6790800094604492
+    },
+    "percentile_thresholds": {
+      "normal_p90_0": 0.6377130150794983,
+      "normal_p95_0": 0.6468230485916138,
+      "normal_p97_5": 0.6817309260368347,
+      "normal_p99_0": 0.7200697660446167,
+      "normal_p99_5": 0.7328494191169739
+    },
+    "recommended_for_gui": {
+      "method": "normal_p99_0",
+      "threshold": 0.7200697660446167,
+      "reason": "normal-score percentile threshold using only normal test samples"
+    },
+    "best_f1_threshold": {
+      "threshold": 0.6075683832168579,
+      "accuracy": 0.8625,
+      "precision": 0.9008264462809917,
+      "recall": 0.9159663865546218,
+      "specificity": 0.7073170731707317,
+      "f1": 0.9083333333333333,
+      "tp": 109,
+      "tn": 29,
+      "fp": 12,
+      "fn": 10,
+      "selection_method": "best_f1"
+    },
+    "best_youden_threshold": {
+      "threshold": 0.610484778881073,
+      "accuracy": 0.86875,
+      "precision": 0.9152542372881356,
+      "recall": 0.907563025210084,
+      "specificity": 0.7560975609756098,
+      "f1": 0.9113924050632911,
+      "tp": 108,
+      "tn": 31,
+      "fp": 10,
+      "fn": 11,
+      "selection_method": "best_youden_j",
+      "youden_j": 0.6636605861856938
+    },
+    "files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/screw/screw_threshold_scores.csv",
+      "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/screw/screw_threshold_candidates.csv",
+      "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/screw/screw_thresholds.json"
+    }
+  },
+  {
+    "dataset_name": "mvtec_ad",
+    "category": "metal_nut",
+    "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/metal_nut_memory_bank.pt",
+    "image_size": 256,
+    "total_test_samples": 115,
+    "normal_samples": 22,
+    "anomalous_samples": 93,
+    "score_stats": {
+      "normal_min": 0.6293100714683533,
+      "normal_max": 0.7450408935546875,
+      "normal_mean": 0.6746717691421509,
+      "anomaly_min": 0.7499187588691711,
+      "anomaly_max": 0.9580313563346863,
+      "anomaly_mean": 0.8714228868484497
+    },
+    "percentile_thresholds": {
+      "normal_p90_0": 0.7231535911560059,
+      "normal_p95_0": 0.7255026698112488,
+      "normal_p97_5": 0.7348368167877197,
+      "normal_p99_0": 0.7409592866897583,
+      "normal_p99_5": 0.7430000901222229
+    },
+    "recommended_for_gui": {
+      "method": "normal_p99_0",
+      "threshold": 0.7409592866897583,
+      "reason": "normal-score percentile threshold using only normal test samples"
+    },
+    "best_f1_threshold": {
+      "threshold": 0.7450408935546875,
+      "accuracy": 0.991304347826087,
+      "precision": 0.9893617021276596,
+      "recall": 1.0,
+      "specificity": 0.9545454545454546,
+      "f1": 0.9946524064171123,
+      "tp": 93,
+      "tn": 21,
+      "fp": 1,
+      "fn": 0,
+      "selection_method": "best_f1"
+    },
+    "best_youden_threshold": {
+      "threshold": 0.7499187588691711,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0,
+      "tp": 93,
+      "tn": 22,
+      "fp": 0,
+      "fn": 0,
+      "selection_method": "best_youden_j",
+      "youden_j": 1.0
+    },
+    "files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/metal_nut/metal_nut_threshold_scores.csv",
+      "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/metal_nut/metal_nut_threshold_candidates.csv",
+      "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/thresholds/metal_nut/metal_nut_thresholds.json"
+    }
+  }
+]

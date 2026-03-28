@@ -1,0 +1,124 @@
+{
+  "dataset_name": "mvtec_ad",
+  "detector_name": "autoencoder",
+  "category": "screw",
+  "checkpoint_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/screw_ae/checkpoints/model_best.pt",
+  "image_size": 256,
+  "total_test_samples": 160,
+  "normal_samples": 41,
+  "anomalous_samples": 119,
+  "image_level_metrics": {
+    "auroc": 0.3529411764705882,
+    "average_precision": 0.6803505378479634
+  },
+  "pixel_level_metrics": {
+    "auroc": 0.9261975511624961,
+    "average_precision": 0.03379912782064513
+  },
+  "top_10_highest_scores": [
+    {
+      "sample_index": 114,
+      "image_path": "data/mvtec_ad/screw/test/thread_side/000.png",
+      "defect_type": "thread_side",
+      "label": 1,
+      "image_score": 0.014372577890753746,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 1580
+    },
+    {
+      "sample_index": 78,
+      "image_path": "data/mvtec_ad/screw/test/scratch_head/013.png",
+      "defect_type": "scratch_head",
+      "label": 1,
+      "image_score": 0.014250719919800758,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 1953
+    },
+    {
+      "sample_index": 104,
+      "image_path": "data/mvtec_ad/screw/test/scratch_neck/015.png",
+      "defect_type": "scratch_neck",
+      "label": 1,
+      "image_score": 0.013915250077843666,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 3017
+    },
+    {
+      "sample_index": 14,
+      "image_path": "data/mvtec_ad/screw/test/good/014.png",
+      "defect_type": "good",
+      "label": 0,
+      "image_score": 0.013761880807578564,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 0
+    },
+    {
+      "sample_index": 22,
+      "image_path": "data/mvtec_ad/screw/test/good/022.png",
+      "defect_type": "good",
+      "label": 0,
+      "image_score": 0.013741368427872658,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 0
+    },
+    {
+      "sample_index": 83,
+      "image_path": "data/mvtec_ad/screw/test/scratch_head/018.png",
+      "defect_type": "scratch_head",
+      "label": 1,
+      "image_score": 0.013647020794451237,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 3846
+    },
+    {
+      "sample_index": 80,
+      "image_path": "data/mvtec_ad/screw/test/scratch_head/015.png",
+      "defect_type": "scratch_head",
+      "label": 1,
+      "image_score": 0.013635250739753246,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 3545
+    },
+    {
+      "sample_index": 35,
+      "image_path": "data/mvtec_ad/screw/test/good/035.png",
+      "defect_type": "good",
+      "label": 0,
+      "image_score": 0.013603368774056435,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 0
+    },
+    {
+      "sample_index": 102,
+      "image_path": "data/mvtec_ad/screw/test/scratch_neck/013.png",
+      "defect_type": "scratch_neck",
+      "label": 1,
+      "image_score": 0.013566657900810242,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 3198
+    },
+    {
+      "sample_index": 138,
+      "image_path": "data/mvtec_ad/screw/test/thread_top/001.png",
+      "defect_type": "thread_top",
+      "label": 1,
+      "image_score": 0.013507090508937836,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 6387
+    }
+  ],
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_reports/screw/screw_ae_image_scores.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_reports/screw/screw_ae_evaluation_summary.json"
+  }
+}

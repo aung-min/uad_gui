@@ -1,0 +1,19 @@
+{
+  "image_path": "C:\\Users\\AMN\\Documents\\__Semester_II\\VIP-COMP820\\uad_gui\\data\\mvtec_ad\\bottle\\test\\contamination\\008.png",
+  "category": "screw",
+  "image_score": 1.0068130493164062,
+  "patch_grid_size_hw": [
+    32,
+    32
+  ],
+  "image_size_hw": [
+    900,
+    900
+  ],
+  "exports": {
+    "anomaly_map_npy": "C:\\Users\\AMN\\Documents\\__Semester_II\\VIP-COMP820\\uad_gui\\outputs\\ui_predictions\\screw\\feature\\contamination\\008_anomaly_map.npy",
+    "anomaly_map_png": "C:\\Users\\AMN\\Documents\\__Semester_II\\VIP-COMP820\\uad_gui\\outputs\\ui_predictions\\screw\\feature\\contamination\\008_anomaly_map.png",
+    "patch_scores_npy": "C:\\Users\\AMN\\Documents\\__Semester_II\\VIP-COMP820\\uad_gui\\outputs\\ui_predictions\\screw\\feature\\contamination\\008_patch_scores.npy",
+    "overlay_png": "C:\\Users\\AMN\\Documents\\__Semester_II\\VIP-COMP820\\uad_gui\\outputs\\ui_predictions\\screw\\feature\\contamination\\008_overlay.png"
+  }
+}

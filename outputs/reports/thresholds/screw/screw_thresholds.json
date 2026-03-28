@@ -1,0 +1,56 @@
+{
+  "dataset_name": "mvtec_ad",
+  "category": "screw",
+  "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/screw_memory_bank.pt",
+  "image_size": 256,
+  "total_test_samples": 160,
+  "normal_samples": 41,
+  "anomalous_samples": 119,
+  "score_stats": {
+    "normal_min": 0.5434609055519104,
+    "normal_max": 0.7456291317939758,
+    "normal_mean": 0.6037865877151489,
+    "anomaly_min": 0.5834606289863586,
+    "anomaly_max": 0.8661813735961914,
+    "anomaly_mean": 0.6790800094604492
+  },
+  "percentile_thresholds": {
+    "normal_p90_0": 0.6377130150794983,
+    "normal_p95_0": 0.6468230485916138,
+    "normal_p97_5": 0.6817309260368347,
+    "normal_p99_0": 0.7200697660446167,
+    "normal_p99_5": 0.7328494191169739
+  },
+  "recommended_for_gui": {
+    "method": "normal_p99_0",
+    "threshold": 0.7200697660446167,
+    "reason": "normal-score percentile threshold using only normal test samples"
+  },
+  "best_f1_threshold": {
+    "threshold": 0.6075683832168579,
+    "accuracy": 0.8625,
+    "precision": 0.9008264462809917,
+    "recall": 0.9159663865546218,
+    "specificity": 0.7073170731707317,
+    "f1": 0.9083333333333333,
+    "tp": 109,
+    "tn": 29,
+    "fp": 12,
+    "fn": 10,
+    "selection_method": "best_f1"
+  },
+  "best_youden_threshold": {
+    "threshold": 0.610484778881073,
+    "accuracy": 0.86875,
+    "precision": 0.9152542372881356,
+    "recall": 0.907563025210084,
+    "specificity": 0.7560975609756098,
+    "f1": 0.9113924050632911,
+    "tp": 108,
+    "tn": 31,
+    "fp": 10,
+    "fn": 11,
+    "selection_method": "best_youden_j",
+    "youden_j": 0.6636605861856938
+  }
+}

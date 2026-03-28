@@ -1,0 +1,2 @@
+category,feature_image_auroc,feature_pixel_auroc,feature_threshold,ae_image_auroc,ae_pixel_auroc,ae_threshold,hybrid_image_auroc,hybrid_pixel_auroc,hybrid_threshold,best_image_detector,best_image_auroc,best_pixel_detector,best_pixel_auroc
+screw,0.8891166222586595,0.9754001078533575,0.7200697660446167,0.3529411764705882,0.9261975511624961,0.013753675855696201,0.5503176880508301,0.9745926621963847,0.9246660470962524,feature,0.8891166222586595,feature,0.9754001078533575

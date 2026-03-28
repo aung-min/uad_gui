@@ -1,0 +1,672 @@
+{
+  "category": "capsule",
+  "feature_build_result": {
+    "category": "capsule",
+    "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/capsule_memory_bank.pt",
+    "build_summary": {
+      "category": "capsule",
+      "total_images": 219,
+      "total_patches_before_subsample": 224256,
+      "memory_bank_patches_after_subsample": 50000,
+      "embedding_dim": 384,
+      "reference_grid_size_hw": [
+        32,
+        32
+      ],
+      "return_nodes": [
+        "layer2",
+        "layer3"
+      ],
+      "reference_node": "layer2",
+      "l2_normalize_embeddings": true
+    }
+  },
+  "feature_summary": {
+    "dataset_name": "mvtec_ad",
+    "category": "capsule",
+    "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/capsule_memory_bank.pt",
+    "image_size": 256,
+    "total_test_samples": 132,
+    "normal_samples": 23,
+    "anomalous_samples": 109,
+    "image_level_metrics": {
+      "auroc": 0.9297965696051057,
+      "average_precision": 0.9836312852328285
+    },
+    "pixel_level_metrics": {
+      "auroc": 0.9751732578532517,
+      "average_precision": 0.3843095984319113
+    },
+    "top_10_highest_scores": [
+      {
+        "sample_index": 1,
+        "image_path": "data/mvtec_ad/capsule/test/crack/001.png",
+        "defect_type": "crack",
+        "label": 1,
+        "image_score": 0.9749447107315063,
+        "patch_grid_h": 32,
+        "patch_grid_w": 32,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 23268
+      },
+      {
+        "sample_index": 4,
+        "image_path": "data/mvtec_ad/capsule/test/crack/004.png",
+        "defect_type": "crack",
+        "label": 1,
+        "image_score": 0.950867235660553,
+        "patch_grid_h": 32,
+        "patch_grid_w": 32,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 3043
+      },
+      {
+        "sample_index": 15,
+        "image_path": "data/mvtec_ad/capsule/test/crack/015.png",
+        "defect_type": "crack",
+        "label": 1,
+        "image_score": 0.947009801864624,
+        "patch_grid_h": 32,
+        "patch_grid_w": 32,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 11638
+      },
+      {
+        "sample_index": 17,
+        "image_path": "data/mvtec_ad/capsule/test/crack/017.png",
+        "defect_type": "crack",
+        "label": 1,
+        "image_score": 0.9405460953712463,
+        "patch_grid_h": 32,
+        "patch_grid_w": 32,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 4812
+      },
+      {
+        "sample_index": 10,
+        "image_path": "data/mvtec_ad/capsule/test/crack/010.png",
+        "defect_type": "crack",
+        "label": 1,
+        "image_score": 0.9188858270645142,
+        "patch_grid_h": 32,
+        "patch_grid_w": 32,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 17974
+      },
+      {
+        "sample_index": 127,
+        "image_path": "data/mvtec_ad/capsule/test/squeeze/015.png",
+        "defect_type": "squeeze",
+        "label": 1,
+        "image_score": 0.911659836769104,
+        "patch_grid_h": 32,
+        "patch_grid_w": 32,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 23973
+      },
+      {
+        "sample_index": 112,
+        "image_path": "data/mvtec_ad/capsule/test/squeeze/000.png",
+        "defect_type": "squeeze",
+        "label": 1,
+        "image_score": 0.8913899660110474,
+        "patch_grid_h": 32,
+        "patch_grid_w": 32,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 76945
+      },
+      {
+        "sample_index": 76,
+        "image_path": "data/mvtec_ad/capsule/test/poke/008.png",
+        "defect_type": "poke",
+        "label": 1,
+        "image_score": 0.8886561989784241,
+        "patch_grid_h": 32,
+        "patch_grid_w": 32,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 5162
+      },
+      {
+        "sample_index": 11,
+        "image_path": "data/mvtec_ad/capsule/test/crack/011.png",
+        "defect_type": "crack",
+        "label": 1,
+        "image_score": 0.8874179720878601,
+        "patch_grid_h": 32,
+        "patch_grid_w": 32,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 5428
+      },
+      {
+        "sample_index": 12,
+        "image_path": "data/mvtec_ad/capsule/test/crack/012.png",
+        "defect_type": "crack",
+        "label": 1,
+        "image_score": 0.8760596513748169,
+        "patch_grid_h": 32,
+        "patch_grid_w": 32,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 3416
+      }
+    ],
+    "files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/capsule/capsule_image_scores.csv",
+      "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/capsule/capsule_evaluation_summary.json"
+    }
+  },
+  "ae_train_summary": {
+    "run_dir": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/capsule_ae",
+    "category": "capsule",
+    "device": "cuda",
+    "train_count": 186,
+    "val_count": 33,
+    "best_epoch": 23,
+    "best_val_loss": 0.01262421900350036,
+    "files": {
+      "model_best": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/capsule_ae/checkpoints/model_best.pt",
+      "model_last": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/capsule_ae/checkpoints/model_last.pt",
+      "training_history_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/capsule_ae/training_history.csv",
+      "training_summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/capsule_ae/training_summary.json",
+      "config_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/capsule_ae/config.json"
+    }
+  },
+  "ae_summary": {
+    "dataset_name": "mvtec_ad",
+    "detector_name": "autoencoder",
+    "category": "capsule",
+    "checkpoint_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/capsule_ae/checkpoints/model_best.pt",
+    "image_size": 256,
+    "total_test_samples": 132,
+    "normal_samples": 23,
+    "anomalous_samples": 109,
+    "image_level_metrics": {
+      "auroc": 0.45472676505783804,
+      "average_precision": 0.7891314540422972
+    },
+    "pixel_level_metrics": {
+      "auroc": 0.8180655923541547,
+      "average_precision": 0.08561601693554326
+    },
+    "top_10_highest_scores": [
+      {
+        "sample_index": 54,
+        "image_path": "data/mvtec_ad/capsule/test/good/009.png",
+        "defect_type": "good",
+        "label": 0,
+        "image_score": 0.018611125648021698,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 0
+      },
+      {
+        "sample_index": 1,
+        "image_path": "data/mvtec_ad/capsule/test/crack/001.png",
+        "defect_type": "crack",
+        "label": 1,
+        "image_score": 0.017865639179944992,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 23268
+      },
+      {
+        "sample_index": 121,
+        "image_path": "data/mvtec_ad/capsule/test/squeeze/009.png",
+        "defect_type": "squeeze",
+        "label": 1,
+        "image_score": 0.01645396277308464,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 48392
+      },
+      {
+        "sample_index": 113,
+        "image_path": "data/mvtec_ad/capsule/test/squeeze/001.png",
+        "defect_type": "squeeze",
+        "label": 1,
+        "image_score": 0.016449758782982826,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 50215
+      },
+      {
+        "sample_index": 64,
+        "image_path": "data/mvtec_ad/capsule/test/good/019.png",
+        "defect_type": "good",
+        "label": 0,
+        "image_score": 0.016146501526236534,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 0
+      },
+      {
+        "sample_index": 49,
+        "image_path": "data/mvtec_ad/capsule/test/good/004.png",
+        "defect_type": "good",
+        "label": 0,
+        "image_score": 0.015959441661834717,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 0
+      },
+      {
+        "sample_index": 119,
+        "image_path": "data/mvtec_ad/capsule/test/squeeze/007.png",
+        "defect_type": "squeeze",
+        "label": 1,
+        "image_score": 0.015890071168541908,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 66178
+      },
+      {
+        "sample_index": 126,
+        "image_path": "data/mvtec_ad/capsule/test/squeeze/014.png",
+        "defect_type": "squeeze",
+        "label": 1,
+        "image_score": 0.01572873815894127,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 80787
+      },
+      {
+        "sample_index": 127,
+        "image_path": "data/mvtec_ad/capsule/test/squeeze/015.png",
+        "defect_type": "squeeze",
+        "label": 1,
+        "image_score": 0.015626290813088417,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 23973
+      },
+      {
+        "sample_index": 123,
+        "image_path": "data/mvtec_ad/capsule/test/squeeze/011.png",
+        "defect_type": "squeeze",
+        "label": 1,
+        "image_score": 0.015048753470182419,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 61876
+      }
+    ],
+    "files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_reports/capsule/capsule_ae_image_scores.csv",
+      "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_reports/capsule/capsule_ae_evaluation_summary.json"
+    }
+  },
+  "hybrid_summary": {
+    "dataset_name": "mvtec_ad",
+    "detector_name": "hybrid",
+    "category": "capsule",
+    "feature_memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/capsule_memory_bank.pt",
+    "ae_checkpoint_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/capsule_ae/checkpoints/model_best.pt",
+    "image_size": 256,
+    "chunk_size": 4096,
+    "feature_weight": 0.5,
+    "ae_weight": 0.5,
+    "score_mode": "max",
+    "total_test_samples": 132,
+    "normal_samples": 23,
+    "anomalous_samples": 109,
+    "image_level_metrics": {
+      "auroc": 0.7024331870761866,
+      "average_precision": 0.9205814233542915
+    },
+    "pixel_level_metrics": {
+      "auroc": 0.9650290125394526,
+      "average_precision": 0.288937022136399
+    },
+    "top_10_highest_scores": [
+      {
+        "sample_index": 6,
+        "image_path": "data/mvtec_ad/capsule/test/crack/006.png",
+        "defect_type": "crack",
+        "label": 1,
+        "image_score": 0.9931880235671997,
+        "feature_score": 0.7412310838699341,
+        "ae_score": 0.013272822834551334,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 5236,
+        "feature_weight": 0.5,
+        "ae_weight": 0.5
+      },
+      {
+        "sample_index": 68,
+        "image_path": "data/mvtec_ad/capsule/test/poke/000.png",
+        "defect_type": "poke",
+        "label": 1,
+        "image_score": 0.9928644895553589,
+        "feature_score": 0.8504977226257324,
+        "ae_score": 0.012967130169272423,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 12289,
+        "feature_weight": 0.5,
+        "ae_weight": 0.5
+      },
+      {
+        "sample_index": 82,
+        "image_path": "data/mvtec_ad/capsule/test/poke/014.png",
+        "defect_type": "poke",
+        "label": 1,
+        "image_score": 0.9923884868621826,
+        "feature_score": 0.8266385793685913,
+        "ae_score": 0.011751886457204819,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 3589,
+        "feature_weight": 0.5,
+        "ae_weight": 0.5
+      },
+      {
+        "sample_index": 79,
+        "image_path": "data/mvtec_ad/capsule/test/poke/011.png",
+        "defect_type": "poke",
+        "label": 1,
+        "image_score": 0.9881315231323242,
+        "feature_score": 0.7470062971115112,
+        "ae_score": 0.01145460270345211,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 2714,
+        "feature_weight": 0.5,
+        "ae_weight": 0.5
+      },
+      {
+        "sample_index": 15,
+        "image_path": "data/mvtec_ad/capsule/test/crack/015.png",
+        "defect_type": "crack",
+        "label": 1,
+        "image_score": 0.9873548746109009,
+        "feature_score": 0.947009801864624,
+        "ae_score": 0.012308254837989807,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 11638,
+        "feature_weight": 0.5,
+        "ae_weight": 0.5
+      },
+      {
+        "sample_index": 84,
+        "image_path": "data/mvtec_ad/capsule/test/poke/016.png",
+        "defect_type": "poke",
+        "label": 1,
+        "image_score": 0.9857796430587769,
+        "feature_score": 0.7087149024009705,
+        "ae_score": 0.011382585391402245,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 1318,
+        "feature_weight": 0.5,
+        "ae_weight": 0.5
+      },
+      {
+        "sample_index": 14,
+        "image_path": "data/mvtec_ad/capsule/test/crack/014.png",
+        "defect_type": "crack",
+        "label": 1,
+        "image_score": 0.9823914170265198,
+        "feature_score": 0.8549891710281372,
+        "ae_score": 0.01233705785125494,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 991,
+        "feature_weight": 0.5,
+        "ae_weight": 0.5
+      },
+      {
+        "sample_index": 4,
+        "image_path": "data/mvtec_ad/capsule/test/crack/004.png",
+        "defect_type": "crack",
+        "label": 1,
+        "image_score": 0.9807395935058594,
+        "feature_score": 0.950867235660553,
+        "ae_score": 0.013169270008802414,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 3043,
+        "feature_weight": 0.5,
+        "ae_weight": 0.5
+      },
+      {
+        "sample_index": 72,
+        "image_path": "data/mvtec_ad/capsule/test/poke/004.png",
+        "defect_type": "poke",
+        "label": 1,
+        "image_score": 0.9785068035125732,
+        "feature_score": 0.6002064347267151,
+        "ae_score": 0.012072959914803505,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 5226,
+        "feature_weight": 0.5,
+        "ae_weight": 0.5
+      },
+      {
+        "sample_index": 69,
+        "image_path": "data/mvtec_ad/capsule/test/poke/001.png",
+        "defect_type": "poke",
+        "label": 1,
+        "image_score": 0.978402316570282,
+        "feature_score": 0.7020508646965027,
+        "ae_score": 0.011672253720462322,
+        "image_h": 1000,
+        "image_w": 1000,
+        "mask_positive_pixels": 1926,
+        "feature_weight": 0.5,
+        "ae_weight": 0.5
+      }
+    ],
+    "files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/hybrid_reports/capsule/capsule_hybrid_image_scores.csv",
+      "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/hybrid_reports/capsule/capsule_hybrid_evaluation_summary.json"
+    }
+  },
+  "feature_threshold_summary": {
+    "dataset_name": "mvtec_ad",
+    "detector_name": "feature",
+    "category": "capsule",
+    "total_test_samples": 132,
+    "normal_samples": 23,
+    "anomalous_samples": 109,
+    "score_stats": {
+      "normal_min": 0.38720381259918213,
+      "normal_max": 0.635549008846283,
+      "normal_mean": 0.5098943710327148,
+      "anomaly_min": 0.47242215275764465,
+      "anomaly_max": 0.9749447107315063,
+      "anomaly_mean": 0.7017530798912048
+    },
+    "percentile_thresholds": {
+      "normal_p90_0": 0.61445552110672,
+      "normal_p95_0": 0.631140410900116,
+      "normal_p97_5": 0.6334953904151917,
+      "normal_p99_0": 0.6347275972366333,
+      "normal_p99_5": 0.6351382732391357
+    },
+    "recommended_for_gui": {
+      "method": "normal_p99_0",
+      "threshold": 0.6347275972366333,
+      "reason": "normal-score percentile threshold using only normal test samples"
+    },
+    "best_f1_threshold": {
+      "threshold": 0.5270466208457947,
+      "accuracy": 0.9166666666666666,
+      "precision": 0.9298245614035088,
+      "recall": 0.9724770642201835,
+      "specificity": 0.6521739130434783,
+      "f1": 0.9506726457399103,
+      "tp": 106,
+      "tn": 15,
+      "fp": 8,
+      "fn": 3,
+      "selection_method": "best_f1"
+    },
+    "best_youden_threshold": {
+      "threshold": 0.552192747592926,
+      "accuracy": 0.9242424242424242,
+      "precision": 0.9541284403669725,
+      "recall": 0.9541284403669725,
+      "specificity": 0.782608695652174,
+      "f1": 0.9541284403669725,
+      "tp": 104,
+      "tn": 18,
+      "fp": 5,
+      "fn": 5,
+      "selection_method": "best_youden_j",
+      "youden_j": 0.7367371360191465
+    },
+    "files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/feature/capsule/capsule_feature_threshold_scores.csv",
+      "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/feature/capsule/capsule_feature_threshold_candidates.csv",
+      "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/feature/capsule/capsule_feature_thresholds.json"
+    }
+  },
+  "ae_threshold_summary": {
+    "dataset_name": "mvtec_ad",
+    "detector_name": "ae",
+    "category": "capsule",
+    "total_test_samples": 132,
+    "normal_samples": 23,
+    "anomalous_samples": 109,
+    "score_stats": {
+      "normal_min": 0.011162085458636284,
+      "normal_max": 0.018611125648021698,
+      "normal_mean": 0.012950371019542217,
+      "anomaly_min": 0.010991307906806469,
+      "anomaly_max": 0.017865639179944992,
+      "anomaly_mean": 0.012495911680161953
+    },
+    "percentile_thresholds": {
+      "normal_p90_0": 0.015689434483647346,
+      "normal_p95_0": 0.016127794981002808,
+      "normal_p97_5": 0.01725558377802372,
+      "normal_p99_0": 0.018068909645080566,
+      "normal_p99_5": 0.018340015783905983
+    },
+    "recommended_for_gui": {
+      "method": "normal_p99_0",
+      "threshold": 0.018068909645080566,
+      "reason": "normal-score percentile threshold using only normal test samples"
+    },
+    "best_f1_threshold": {
+      "threshold": 0.010991307906806469,
+      "accuracy": 0.8257575757575758,
+      "precision": 0.8257575757575758,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.9045643153526972,
+      "tp": 109,
+      "tn": 0,
+      "fp": 23,
+      "fn": 0,
+      "selection_method": "best_f1"
+    },
+    "best_youden_threshold": {
+      "threshold": 0.011382585391402245,
+      "accuracy": 0.7727272727272727,
+      "precision": 0.8376068376068376,
+      "recall": 0.8990825688073395,
+      "specificity": 0.17391304347826086,
+      "f1": 0.8672566371681416,
+      "tp": 98,
+      "tn": 4,
+      "fp": 19,
+      "fn": 11,
+      "selection_method": "best_youden_j",
+      "youden_j": 0.07299561228560036
+    },
+    "files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/capsule/capsule_ae_threshold_scores.csv",
+      "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/capsule/capsule_ae_threshold_candidates.csv",
+      "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/ae/capsule/capsule_ae_thresholds.json"
+    }
+  },
+  "hybrid_threshold_summary": {
+    "dataset_name": "mvtec_ad",
+    "detector_name": "hybrid",
+    "category": "capsule",
+    "total_test_samples": 132,
+    "normal_samples": 23,
+    "anomalous_samples": 109,
+    "score_stats": {
+      "normal_min": 0.5418180227279663,
+      "normal_max": 0.9447144865989685,
+      "normal_mean": 0.7279618382453918,
+      "anomaly_min": 0.5759828090667725,
+      "anomaly_max": 0.9931880235671997,
+      "anomaly_mean": 0.8144165277481079
+    },
+    "percentile_thresholds": {
+      "normal_p90_0": 0.8360792398452759,
+      "normal_p95_0": 0.845325231552124,
+      "normal_p97_5": 0.8905454874038696,
+      "normal_p99_0": 0.9230469465255737,
+      "normal_p99_5": 0.933880627155304
+    },
+    "recommended_for_gui": {
+      "method": "normal_p99_0",
+      "threshold": 0.9230469465255737,
+      "reason": "normal-score percentile threshold using only normal test samples"
+    },
+    "best_f1_threshold": {
+      "threshold": 0.575722336769104,
+      "accuracy": 0.8409090909090909,
+      "precision": 0.8384615384615385,
+      "recall": 1.0,
+      "specificity": 0.08695652173913043,
+      "f1": 0.9121338912133891,
+      "tp": 109,
+      "tn": 2,
+      "fp": 21,
+      "fn": 0,
+      "selection_method": "best_f1"
+    },
+    "best_youden_threshold": {
+      "threshold": 0.8472540378570557,
+      "accuracy": 0.4621212121212121,
+      "precision": 0.975,
+      "recall": 0.3577981651376147,
+      "specificity": 0.9565217391304348,
+      "f1": 0.5234899328859061,
+      "tp": 39,
+      "tn": 22,
+      "fp": 1,
+      "fn": 70,
+      "selection_method": "best_youden_j",
+      "youden_j": 0.31431990426804945
+    },
+    "files": {
+      "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/capsule/capsule_hybrid_threshold_scores.csv",
+      "threshold_candidates_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/capsule/capsule_hybrid_threshold_candidates.csv",
+      "thresholds_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/hybrid/capsule/capsule_hybrid_thresholds.json"
+    }
+  },
+  "comparison_row": {
+    "category": "capsule",
+    "feature_image_auroc": 0.9297965696051057,
+    "feature_pixel_auroc": 0.9751732578532517,
+    "feature_threshold": 0.6347275972366333,
+    "ae_image_auroc": 0.45472676505783804,
+    "ae_pixel_auroc": 0.8180655923541547,
+    "ae_threshold": 0.018068909645080566,
+    "hybrid_image_auroc": 0.7024331870761866,
+    "hybrid_pixel_auroc": 0.9650290125394526,
+    "hybrid_threshold": 0.9230469465255737,
+    "best_image_detector": "feature",
+    "best_image_auroc": 0.9297965696051057,
+    "best_pixel_detector": "feature",
+    "best_pixel_auroc": 0.9751732578532517
+  }
+}

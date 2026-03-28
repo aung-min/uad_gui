@@ -1,0 +1,143 @@
+{
+  "dataset_name": "mvtec_ad",
+  "category": "cable",
+  "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/cable_memory_bank.pt",
+  "image_size": 256,
+  "total_test_samples": 150,
+  "normal_samples": 58,
+  "anomalous_samples": 92,
+  "image_level_metrics": {
+    "auroc": 0.9881934032983508,
+    "average_precision": 0.9928925963549421
+  },
+  "pixel_level_metrics": {
+    "auroc": 0.9595416766982425,
+    "average_precision": 0.5777650272907026
+  },
+  "top_10_highest_scores": [
+    {
+      "sample_index": 33,
+      "image_path": "data/mvtec_ad/cable/test/combined/008.png",
+      "defect_type": "combined",
+      "label": 1,
+      "image_score": 1.0261050462722778,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 48510
+    },
+    {
+      "sample_index": 4,
+      "image_path": "data/mvtec_ad/cable/test/bent_wire/004.png",
+      "defect_type": "bent_wire",
+      "label": 1,
+      "image_score": 1.0160189867019653,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 32843
+    },
+    {
+      "sample_index": 11,
+      "image_path": "data/mvtec_ad/cable/test/bent_wire/011.png",
+      "defect_type": "bent_wire",
+      "label": 1,
+      "image_score": 0.9919593334197998,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 119231
+    },
+    {
+      "sample_index": 9,
+      "image_path": "data/mvtec_ad/cable/test/bent_wire/009.png",
+      "defect_type": "bent_wire",
+      "label": 1,
+      "image_score": 0.9784990549087524,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 38202
+    },
+    {
+      "sample_index": 5,
+      "image_path": "data/mvtec_ad/cable/test/bent_wire/005.png",
+      "defect_type": "bent_wire",
+      "label": 1,
+      "image_score": 0.9734856486320496,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 37738
+    },
+    {
+      "sample_index": 124,
+      "image_path": "data/mvtec_ad/cable/test/missing_cable/006.png",
+      "defect_type": "missing_cable",
+      "label": 1,
+      "image_score": 0.9698530435562134,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 236776
+    },
+    {
+      "sample_index": 12,
+      "image_path": "data/mvtec_ad/cable/test/bent_wire/012.png",
+      "defect_type": "bent_wire",
+      "label": 1,
+      "image_score": 0.9666325449943542,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 72366
+    },
+    {
+      "sample_index": 10,
+      "image_path": "data/mvtec_ad/cable/test/bent_wire/010.png",
+      "defect_type": "bent_wire",
+      "label": 1,
+      "image_score": 0.9653958678245544,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 38102
+    },
+    {
+      "sample_index": 25,
+      "image_path": "data/mvtec_ad/cable/test/combined/000.png",
+      "defect_type": "combined",
+      "label": 1,
+      "image_score": 0.9556090235710144,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 42321
+    },
+    {
+      "sample_index": 1,
+      "image_path": "data/mvtec_ad/cable/test/bent_wire/001.png",
+      "defect_type": "bent_wire",
+      "label": 1,
+      "image_score": 0.9551673531532288,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1024,
+      "image_w": 1024,
+      "mask_positive_pixels": 15206
+    }
+  ],
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/cable/cable_image_scores.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/cable/cable_evaluation_summary.json"
+  }
+}

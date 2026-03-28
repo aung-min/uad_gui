@@ -1,0 +1,41 @@
+{
+  "detector": "feature",
+  "detector_display_name": "Feature bank",
+  "category": "transistor",
+  "threshold_source": "recommended:normal_p99_0",
+  "threshold": 0.7950738668441772,
+  "accuracy": 0.88,
+  "precision": 0.9666666666666667,
+  "recall": 0.725,
+  "specificity": 0.9833333333333333,
+  "f1": 0.8285714285714286,
+  "tp": 29,
+  "tn": 59,
+  "fp": 1,
+  "fn": 11,
+  "total_images": 100,
+  "normal_images": 60,
+  "anomalous_images": 40,
+  "source_files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/transistor/transistor_image_scores.csv",
+    "threshold_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/model_thresholds/feature/transistor/transistor_feature_thresholds.json"
+  },
+  "files": {
+    "dashboard_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/feature/transistor/transistor_feature_confusion_threshold_dashboard.png",
+    "threshold_sweep_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/feature/transistor/transistor_feature_threshold_sweep.csv",
+    "confusion_matrix_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/feature/transistor/transistor_feature_confusion_matrix.csv",
+    "selected_metrics_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/feature/transistor/transistor_feature_selected_metrics.csv",
+    "score_distribution_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/feature/transistor/transistor_feature_score_distribution.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/dashboards/feature/transistor/transistor_feature_dashboard_summary.json"
+  },
+  "font_config": {
+    "title": 18,
+    "axis_label": 17,
+    "tick": 16,
+    "legend": 12,
+    "matrix_cell": 18,
+    "summary": 14,
+    "suptitle": 20,
+    "colorbar_tick": 12
+  }
+}

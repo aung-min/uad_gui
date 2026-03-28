@@ -1,0 +1,152 @@
+{
+  "num_categories": 6,
+  "categories": [
+    "bottle",
+    "cable",
+    "capsule",
+    "metal_nut",
+    "screw",
+    "transistor"
+  ],
+  "mean_metrics": {
+    "feature_image_auroc_mean": 0.9638927658603528,
+    "ae_image_auroc_mean": 0.4918824688886693,
+    "hybrid_image_auroc_mean": 0.5534621095265791,
+    "feature_pixel_auroc_mean": 0.949227495822513,
+    "ae_pixel_auroc_mean": 0.7421026551653146,
+    "hybrid_pixel_auroc_mean": 0.9195609119776399
+  },
+  "best_detector_counts": {
+    "image_level": {
+      "feature": 6
+    },
+    "pixel_level": {
+      "feature": 6
+    }
+  },
+  "files": {
+    "image_auroc_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/image_auroc_comparison.png",
+    "pixel_auroc_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/pixel_auroc_comparison.png",
+    "best_image_detector_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/best_image_detector_by_category.png",
+    "best_pixel_detector_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/best_pixel_detector_by_category.png",
+    "summary_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/model_comparison_summary.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/model_comparison_summary.json",
+    "image_auroc_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/image_auroc_comparison.csv",
+    "pixel_auroc_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/pixel_auroc_comparison.csv",
+    "best_image_detector_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/best_image_detector_by_category.csv",
+    "best_pixel_detector_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/best_pixel_detector_by_category.csv",
+    "best_f1_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/best_f1_comparison.png",
+    "best_f1_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/best_f1_comparison.csv",
+    "threshold_summary_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/threshold_summary_table.csv"
+  },
+  "font_config": {
+    "title": 18,
+    "axis_label": 14,
+    "tick": 13,
+    "legend": 12
+  },
+  "size_config": {
+    "grouped_width": 18.0,
+    "grouped_height": 9.0,
+    "best_width": 18.0,
+    "best_height": 6.0
+  },
+  "rows": [
+    {
+      "category": "bottle",
+      "feature_image_auroc": 1.0,
+      "feature_pixel_auroc": 0.982672479331444,
+      "feature_threshold": 0.5959405899047852,
+      "ae_image_auroc": 0.6888888888888889,
+      "ae_pixel_auroc": 0.7674990085796173,
+      "ae_threshold": 0.0194452460855245,
+      "hybrid_image_auroc": 0.7825396825396825,
+      "hybrid_pixel_auroc": 0.9713400002746824,
+      "hybrid_threshold": 0.9462053775787354,
+      "best_image_detector": "feature",
+      "best_image_auroc": 1.0,
+      "best_pixel_detector": "feature",
+      "best_pixel_auroc": 0.982672479331444
+    },
+    {
+      "category": "cable",
+      "feature_image_auroc": 0.9881934032983508,
+      "feature_pixel_auroc": 0.9595416766982424,
+      "feature_threshold": 0.7883915305137634,
+      "ae_image_auroc": 0.5760869565217391,
+      "ae_pixel_auroc": 0.5494072428502681,
+      "ae_threshold": 0.0350417681038379,
+      "hybrid_image_auroc": 0.3416416791604197,
+      "hybrid_pixel_auroc": 0.916253211958762,
+      "hybrid_threshold": 0.9373964667320251,
+      "best_image_detector": "feature",
+      "best_image_auroc": 0.9881934032983508,
+      "best_pixel_detector": "feature",
+      "best_pixel_auroc": 0.9595416766982424
+    },
+    {
+      "category": "capsule",
+      "feature_image_auroc": 0.9297965696051056,
+      "feature_pixel_auroc": 0.9751732578532516,
+      "feature_threshold": 0.6347275972366333,
+      "ae_image_auroc": 0.454726765057838,
+      "ae_pixel_auroc": 0.8180655923541547,
+      "ae_threshold": 0.0180689096450805,
+      "hybrid_image_auroc": 0.7024331870761866,
+      "hybrid_pixel_auroc": 0.9650290125394526,
+      "hybrid_threshold": 0.9230469465255736,
+      "best_image_detector": "feature",
+      "best_image_auroc": 0.9297965696051056,
+      "best_pixel_detector": "feature",
+      "best_pixel_auroc": 0.9751732578532516
+    },
+    {
+      "category": "metal_nut",
+      "feature_image_auroc": 1.0,
+      "feature_pixel_auroc": 0.9474189144995768,
+      "feature_threshold": 0.7409592866897583,
+      "ae_image_auroc": 0.3919843597262952,
+      "ae_pixel_auroc": 0.7853650790342986,
+      "ae_threshold": 0.0247163586318492,
+      "hybrid_image_auroc": 0.4525904203323558,
+      "hybrid_pixel_auroc": 0.9175857856864176,
+      "hybrid_threshold": 0.9413636922836304,
+      "best_image_detector": "feature",
+      "best_image_auroc": 1.0,
+      "best_pixel_detector": "feature",
+      "best_pixel_auroc": 0.9474189144995768
+    },
+    {
+      "category": "screw",
+      "feature_image_auroc": 0.8891166222586595,
+      "feature_pixel_auroc": 0.9754001078533576,
+      "feature_threshold": 0.7200697660446167,
+      "ae_image_auroc": 0.3529411764705882,
+      "ae_pixel_auroc": 0.926197551162496,
+      "ae_threshold": 0.0137536758556962,
+      "hybrid_image_auroc": 0.5503176880508301,
+      "hybrid_pixel_auroc": 0.9745926621963849,
+      "hybrid_threshold": 0.9246660470962524,
+      "best_image_detector": "feature",
+      "best_image_auroc": 0.8891166222586595,
+      "best_pixel_detector": "feature",
+      "best_pixel_auroc": 0.9754001078533576
+    },
+    {
+      "category": "transistor",
+      "feature_image_auroc": 0.97625,
+      "feature_pixel_auroc": 0.8551585386992052,
+      "feature_threshold": 0.7950738668441772,
+      "ae_image_auroc": 0.4866666666666666,
+      "ae_pixel_auroc": 0.6060814570110524,
+      "ae_threshold": 0.0201176647096872,
+      "hybrid_image_auroc": 0.49125,
+      "hybrid_pixel_auroc": 0.7725647992101397,
+      "hybrid_threshold": 0.9438443779945374,
+      "best_image_detector": "feature",
+      "best_image_auroc": 0.97625,
+      "best_pixel_detector": "feature",
+      "best_pixel_auroc": 0.8551585386992052
+    }
+  ]
+}

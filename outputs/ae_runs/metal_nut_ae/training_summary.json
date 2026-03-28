@@ -1,0 +1,16 @@
+{
+  "run_dir": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/metal_nut_ae",
+  "category": "metal_nut",
+  "device": "cuda",
+  "train_count": 187,
+  "val_count": 33,
+  "best_epoch": 25,
+  "best_val_loss": 0.02007731699356527,
+  "files": {
+    "model_best": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/metal_nut_ae/checkpoints/model_best.pt",
+    "model_last": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/metal_nut_ae/checkpoints/model_last.pt",
+    "training_history_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/metal_nut_ae/training_history.csv",
+    "training_summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/metal_nut_ae/training_summary.json",
+    "config_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/metal_nut_ae/config.json"
+  }
+}

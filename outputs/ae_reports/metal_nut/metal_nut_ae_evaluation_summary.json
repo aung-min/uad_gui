@@ -1,0 +1,124 @@
+{
+  "dataset_name": "mvtec_ad",
+  "detector_name": "autoencoder",
+  "category": "metal_nut",
+  "checkpoint_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/metal_nut_ae/checkpoints/model_best.pt",
+  "image_size": 256,
+  "total_test_samples": 115,
+  "normal_samples": 22,
+  "anomalous_samples": 93,
+  "image_level_metrics": {
+    "auroc": 0.39198435972629525,
+    "average_precision": 0.7273359448857045
+  },
+  "pixel_level_metrics": {
+    "auroc": 0.7853650790342986,
+    "average_precision": 0.24539756538134963
+  },
+  "top_10_highest_scores": [
+    {
+      "sample_index": 83,
+      "image_path": "data/mvtec_ad/metal_nut/test/good/013.png",
+      "defect_type": "good",
+      "label": 0,
+      "image_score": 0.024954412132501602,
+      "image_h": 700,
+      "image_w": 700,
+      "mask_positive_pixels": 0
+    },
+    {
+      "sample_index": 35,
+      "image_path": "data/mvtec_ad/metal_nut/test/color/010.png",
+      "defect_type": "color",
+      "label": 1,
+      "image_score": 0.02401755563914776,
+      "image_h": 700,
+      "image_w": 700,
+      "mask_positive_pixels": 16025
+    },
+    {
+      "sample_index": 34,
+      "image_path": "data/mvtec_ad/metal_nut/test/color/009.png",
+      "defect_type": "color",
+      "label": 1,
+      "image_score": 0.023904865607619286,
+      "image_h": 700,
+      "image_w": 700,
+      "mask_positive_pixels": 8684
+    },
+    {
+      "sample_index": 79,
+      "image_path": "data/mvtec_ad/metal_nut/test/good/009.png",
+      "defect_type": "good",
+      "label": 0,
+      "image_score": 0.023820821195840836,
+      "image_h": 700,
+      "image_w": 700,
+      "mask_positive_pixels": 0
+    },
+    {
+      "sample_index": 82,
+      "image_path": "data/mvtec_ad/metal_nut/test/good/012.png",
+      "defect_type": "good",
+      "label": 0,
+      "image_score": 0.02353169210255146,
+      "image_h": 700,
+      "image_w": 700,
+      "mask_positive_pixels": 0
+    },
+    {
+      "sample_index": 80,
+      "image_path": "data/mvtec_ad/metal_nut/test/good/010.png",
+      "defect_type": "good",
+      "label": 0,
+      "image_score": 0.022814173251390457,
+      "image_h": 700,
+      "image_w": 700,
+      "mask_positive_pixels": 0
+    },
+    {
+      "sample_index": 77,
+      "image_path": "data/mvtec_ad/metal_nut/test/good/007.png",
+      "defect_type": "good",
+      "label": 0,
+      "image_score": 0.022758247330784798,
+      "image_h": 700,
+      "image_w": 700,
+      "mask_positive_pixels": 0
+    },
+    {
+      "sample_index": 78,
+      "image_path": "data/mvtec_ad/metal_nut/test/good/008.png",
+      "defect_type": "good",
+      "label": 0,
+      "image_score": 0.022725658491253853,
+      "image_h": 700,
+      "image_w": 700,
+      "mask_positive_pixels": 0
+    },
+    {
+      "sample_index": 84,
+      "image_path": "data/mvtec_ad/metal_nut/test/good/014.png",
+      "defect_type": "good",
+      "label": 0,
+      "image_score": 0.02256835252046585,
+      "image_h": 700,
+      "image_w": 700,
+      "mask_positive_pixels": 0
+    },
+    {
+      "sample_index": 47,
+      "image_path": "data/mvtec_ad/metal_nut/test/flip/000.png",
+      "defect_type": "flip",
+      "label": 1,
+      "image_score": 0.022548232227563858,
+      "image_h": 700,
+      "image_w": 700,
+      "mask_positive_pixels": 237351
+    }
+  ],
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_reports/metal_nut/metal_nut_ae_image_scores.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_reports/metal_nut/metal_nut_ae_evaluation_summary.json"
+  }
+}

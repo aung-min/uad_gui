@@ -1,0 +1,2 @@
+detector,category,threshold_source,threshold,accuracy,precision,recall,specificity,f1,tp,tn,fp,fn
+hybrid,screw,recommended:normal_p99_0,0.9246660470962524,0.25625,0.0,0.0,1.0,0.0,0,41,0,119

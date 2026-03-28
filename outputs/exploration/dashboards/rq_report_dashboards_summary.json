@@ -1,0 +1,124 @@
+{
+  "overview": [
+    {
+      "detector": "Feature",
+      "mean_image_auroc": 0.964,
+      "mean_pixel_auroc": 0.949,
+      "mean_best_f1": 0.952
+    },
+    {
+      "detector": "AE",
+      "mean_image_auroc": 0.492,
+      "mean_pixel_auroc": 0.742,
+      "mean_best_f1": 0.811
+    },
+    {
+      "detector": "Hybrid",
+      "mean_image_auroc": 0.553,
+      "mean_pixel_auroc": 0.92,
+      "mean_best_f1": 0.808
+    }
+  ],
+  "rq1": [
+    {
+      "category": "bottle",
+      "feature_img_auroc": 1.0,
+      "ae_img_auroc": 0.689,
+      "hybrid_img_auroc": 0.783,
+      "best_detector": "Feature"
+    },
+    {
+      "category": "cable",
+      "feature_img_auroc": 0.988,
+      "ae_img_auroc": 0.576,
+      "hybrid_img_auroc": 0.342,
+      "best_detector": "Feature"
+    },
+    {
+      "category": "capsule",
+      "feature_img_auroc": 0.93,
+      "ae_img_auroc": 0.455,
+      "hybrid_img_auroc": 0.702,
+      "best_detector": "Feature"
+    },
+    {
+      "category": "metal_nut",
+      "feature_img_auroc": 1.0,
+      "ae_img_auroc": 0.392,
+      "hybrid_img_auroc": 0.453,
+      "best_detector": "Feature"
+    },
+    {
+      "category": "screw",
+      "feature_img_auroc": 0.889,
+      "ae_img_auroc": 0.353,
+      "hybrid_img_auroc": 0.55,
+      "best_detector": "Feature"
+    },
+    {
+      "category": "transistor",
+      "feature_img_auroc": 0.976,
+      "ae_img_auroc": 0.487,
+      "hybrid_img_auroc": 0.491,
+      "best_detector": "Feature"
+    }
+  ],
+  "rq3": [
+    {
+      "category": "bottle",
+      "feature_best_f1": 0.992,
+      "ae_best_f1": 0.881,
+      "hybrid_best_f1": 0.863,
+      "best_detector": "Feature",
+      "recommended_method": "F:normal_p99_0 | AE:normal_p99_0 | H:normal_p99_0"
+    },
+    {
+      "category": "cable",
+      "feature_best_f1": 0.951,
+      "ae_best_f1": 0.76,
+      "hybrid_best_f1": 0.76,
+      "best_detector": "Feature",
+      "recommended_method": "F:normal_p99_0 | AE:normal_p99_0 | H:normal_p99_0"
+    },
+    {
+      "category": "capsule",
+      "feature_best_f1": 0.951,
+      "ae_best_f1": 0.905,
+      "hybrid_best_f1": 0.912,
+      "best_detector": "Feature",
+      "recommended_method": "F:normal_p99_0 | AE:normal_p99_0 | H:normal_p99_0"
+    },
+    {
+      "category": "metal_nut",
+      "feature_best_f1": 0.995,
+      "ae_best_f1": 0.894,
+      "hybrid_best_f1": 0.894,
+      "best_detector": "Feature",
+      "recommended_method": "F:normal_p99_0 | AE:normal_p99_0 | H:normal_p99_0"
+    },
+    {
+      "category": "screw",
+      "feature_best_f1": 0.908,
+      "ae_best_f1": 0.853,
+      "hybrid_best_f1": 0.849,
+      "best_detector": "Feature",
+      "recommended_method": "F:normal_p99_0 | AE:normal_p99_0 | H:normal_p99_0"
+    },
+    {
+      "category": "transistor",
+      "feature_best_f1": 0.914,
+      "ae_best_f1": 0.571,
+      "hybrid_best_f1": 0.571,
+      "best_detector": "Feature",
+      "recommended_method": "F:normal_p99_0 | AE:normal_p99_0 | H:normal_p99_0"
+    }
+  ],
+  "files": {
+    "overview_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/section5_overview_means.csv",
+    "rq1_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/rq1_detector_comparison.csv",
+    "rq1_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/rq1_detector_comparison.png",
+    "rq3_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/rq3_threshold_comparison.csv",
+    "rq3_png": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/rq3_threshold_comparison.png",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/exploration/dashboards/rq_report_dashboards_summary.json"
+  }
+}

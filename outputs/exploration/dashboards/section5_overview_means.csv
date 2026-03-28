@@ -1,0 +1,4 @@
+detector,mean_image_auroc,mean_pixel_auroc,mean_best_f1
+Feature,0.964,0.949,0.952
+AE,0.492,0.742,0.811
+Hybrid,0.553,0.92,0.808

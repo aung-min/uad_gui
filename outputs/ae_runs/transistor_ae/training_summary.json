@@ -1,0 +1,16 @@
+{
+  "run_dir": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/transistor_ae",
+  "category": "transistor",
+  "device": "cuda",
+  "train_count": 181,
+  "val_count": 32,
+  "best_epoch": 27,
+  "best_val_loss": 0.0156639008782804,
+  "files": {
+    "model_best": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/transistor_ae/checkpoints/model_best.pt",
+    "model_last": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/transistor_ae/checkpoints/model_last.pt",
+    "training_history_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/transistor_ae/training_history.csv",
+    "training_summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/transistor_ae/training_summary.json",
+    "config_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/ae_runs/transistor_ae/config.json"
+  }
+}

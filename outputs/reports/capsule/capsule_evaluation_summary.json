@@ -1,0 +1,143 @@
+{
+  "dataset_name": "mvtec_ad",
+  "category": "capsule",
+  "memory_bank_path": "/home/wsl-admin/industrial_anomaly_detection/outputs/checkpoints/capsule_memory_bank.pt",
+  "image_size": 256,
+  "total_test_samples": 132,
+  "normal_samples": 23,
+  "anomalous_samples": 109,
+  "image_level_metrics": {
+    "auroc": 0.9297965696051057,
+    "average_precision": 0.9836312852328285
+  },
+  "pixel_level_metrics": {
+    "auroc": 0.9751732578532517,
+    "average_precision": 0.3843095984319113
+  },
+  "top_10_highest_scores": [
+    {
+      "sample_index": 1,
+      "image_path": "data/mvtec_ad/capsule/test/crack/001.png",
+      "defect_type": "crack",
+      "label": 1,
+      "image_score": 0.9749447107315063,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1000,
+      "image_w": 1000,
+      "mask_positive_pixels": 23268
+    },
+    {
+      "sample_index": 4,
+      "image_path": "data/mvtec_ad/capsule/test/crack/004.png",
+      "defect_type": "crack",
+      "label": 1,
+      "image_score": 0.950867235660553,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1000,
+      "image_w": 1000,
+      "mask_positive_pixels": 3043
+    },
+    {
+      "sample_index": 15,
+      "image_path": "data/mvtec_ad/capsule/test/crack/015.png",
+      "defect_type": "crack",
+      "label": 1,
+      "image_score": 0.947009801864624,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1000,
+      "image_w": 1000,
+      "mask_positive_pixels": 11638
+    },
+    {
+      "sample_index": 17,
+      "image_path": "data/mvtec_ad/capsule/test/crack/017.png",
+      "defect_type": "crack",
+      "label": 1,
+      "image_score": 0.9405460953712463,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1000,
+      "image_w": 1000,
+      "mask_positive_pixels": 4812
+    },
+    {
+      "sample_index": 10,
+      "image_path": "data/mvtec_ad/capsule/test/crack/010.png",
+      "defect_type": "crack",
+      "label": 1,
+      "image_score": 0.9188858270645142,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1000,
+      "image_w": 1000,
+      "mask_positive_pixels": 17974
+    },
+    {
+      "sample_index": 127,
+      "image_path": "data/mvtec_ad/capsule/test/squeeze/015.png",
+      "defect_type": "squeeze",
+      "label": 1,
+      "image_score": 0.911659836769104,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1000,
+      "image_w": 1000,
+      "mask_positive_pixels": 23973
+    },
+    {
+      "sample_index": 112,
+      "image_path": "data/mvtec_ad/capsule/test/squeeze/000.png",
+      "defect_type": "squeeze",
+      "label": 1,
+      "image_score": 0.8913899660110474,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1000,
+      "image_w": 1000,
+      "mask_positive_pixels": 76945
+    },
+    {
+      "sample_index": 76,
+      "image_path": "data/mvtec_ad/capsule/test/poke/008.png",
+      "defect_type": "poke",
+      "label": 1,
+      "image_score": 0.8886561989784241,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1000,
+      "image_w": 1000,
+      "mask_positive_pixels": 5162
+    },
+    {
+      "sample_index": 11,
+      "image_path": "data/mvtec_ad/capsule/test/crack/011.png",
+      "defect_type": "crack",
+      "label": 1,
+      "image_score": 0.8874179720878601,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1000,
+      "image_w": 1000,
+      "mask_positive_pixels": 5428
+    },
+    {
+      "sample_index": 12,
+      "image_path": "data/mvtec_ad/capsule/test/crack/012.png",
+      "defect_type": "crack",
+      "label": 1,
+      "image_score": 0.8760596513748169,
+      "patch_grid_h": 32,
+      "patch_grid_w": 32,
+      "image_h": 1000,
+      "image_w": 1000,
+      "mask_positive_pixels": 3416
+    }
+  ],
+  "files": {
+    "image_scores_csv": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/capsule/capsule_image_scores.csv",
+    "summary_json": "/home/wsl-admin/industrial_anomaly_detection/outputs/reports/capsule/capsule_evaluation_summary.json"
+  }
+}
