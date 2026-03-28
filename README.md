@@ -1,16 +1,11 @@
-Use this corrected README.md:
+##  Tkinter desktop app for unsupervised anomaly detection on selected MVTec AD categories.
 
-# UAD_GUI_APP
-
-Tkinter desktop app for unsupervised anomaly detection on selected MVTec AD categories.
-
-## Dataset setup
+### Dataset setup
 
 MVTec AD dataset: https://www.mvtec.com/research-teaching/datasets/mvtec-ad
 
 ### Create this folder
-
-```text
+<pre>
 data/
   mvtec_ad/
 Download the MVTec AD dataset, extract the zip file, and copy these folders into data/mvtec_ad
@@ -23,17 +18,21 @@ data/
     cable/
     transistor/
 src/
-
+</pre>
 
 Environment setup
 Windows
+<pre>
 python3 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-python -m src.ui.tkinter_app
-Run
+</pre>
 
+###Run
 From the project root:
-
+<pre>
 python -m src.ui.tkinter_app
+</pre>
+
+Your main issue was using ``text` instead of triple backticks like:
 
