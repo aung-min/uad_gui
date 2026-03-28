@@ -1,6 +1,6 @@
 # UAD-DEMO
 ## Unsupervised Industrial Anomaly Detection using MVTec AD <br>
-[![Watch the video]▶️](https://youtu.be/qHqG2Wsurzc)
+[!▶️[Watch the video]](https://youtu.be/qHqG2Wsurzc)
 
 
 ## Inspection of bottle<br>
